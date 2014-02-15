@@ -20,5 +20,5 @@ Máquinas que podemos poner:
 
 -http://shxinao.en.made-in-china.com/product/PqfmkVeKAyhW/China-Box-Forming-Machine.html (box making)
 
--http://cnhaoteng.en.made-in-china.com/product/DSyxLZhKEAkg/China-High-Spee (packing)
+-http://cnhaoteng.en.made-in-china.com/product/DSyxLZhKEAkg/China-High-Speed-Multifunctional-Automatic-Paper-Box-Packaging-Machine-Medicine-Box-Cartoning-Machine-Liquid-Bottle-Packing-Machine-HTZ200-.html (packing)
 
