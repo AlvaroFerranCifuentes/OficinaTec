@@ -22,3 +22,13 @@ Máquinas que podemos poner:
 
 -http://cnhaoteng.en.made-in-china.com/product/DSyxLZhKEAkg/China-High-Speed-Multifunctional-Automatic-Paper-Box-Packaging-Machine-Medicine-Box-Cartoning-Machine-Liquid-Bottle-Packing-Machine-HTZ200-.html (packing)
 
+
+Legislación:
+
+http://europa.eu/legislation_summaries/consumers/product_labelling_and_packaging/l21102_es.htm
+
+http://europa.eu/legislation_summaries/internal_market/single_market_for_goods/pharmaceutical_and_cosmetic_products/l21230_es.htm
+
+http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32009R1170:ES:NOT
+
+http://www.saludcantabria.es/index.php?page=requisitos-para-la-primera-comercializacion-de-complementos-alimenticios-y-alimentos-dieteticos
