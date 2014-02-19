@@ -22,6 +22,10 @@ Máquinas que podemos poner:
 
 -http://cnhaoteng.en.made-in-china.com/product/DSyxLZhKEAkg/China-High-Speed-Multifunctional-Automatic-Paper-Box-Packaging-Machine-Medicine-Box-Cartoning-Machine-Liquid-Bottle-Packing-Machine-HTZ200-.html (packing)
 
+Proyecto vigilancia:
+
+Software: http://www.ispyconnect.com/source.aspx
+Camaras : http://www.foscam.es/FI8910W/
 
 Legislación:
 
