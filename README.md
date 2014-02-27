@@ -36,3 +36,10 @@ http://europa.eu/legislation_summaries/internal_market/single_market_for_goods/p
 http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32009R1170:ES:NOT
 
 http://www.saludcantabria.es/index.php?page=requisitos-para-la-primera-comercializacion-de-complementos-alimenticios-y-alimentos-dieteticos
+
+Notas:
+
+PGOU Rivas: http://sit.rivasciudad.es/oitr/cartografia/
+
+Parcelario urbano y mapa satélite: http://www.madrid.org/nomecalles/
+
