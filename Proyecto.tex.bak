@@ -1,0 +1,75 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage{graphicx,verbatim,eurosym,gensymb,epstopdf,mathtools}
+\usepackage[top=3.5cm, bottom=2.5cm, left=2.7cm, right=2.7cm]{geometry}
+\usepackage{fancyhdr} 
+	\lhead{}
+	\chead{}
+	\rhead{Instalación eléctrica y automatización de una fábrica de complementos alimenticios}
+\pagestyle{fancy}
+\usepackage[spanish, english]{babel}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+\usetikzlibrary{matrix}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+
+\begin{document}
+
+% PORTADA
+
+\input{portada}
+
+\setlength{\parindent}{0cm}
+
+\selectlanguage{spanish}
+
+\newpage
+\tableofcontents
+\clearpage
+
+% MEMORIA
+
+\part{Memoria} 
+
+\input{Memoria/memoria.tex}
+
+
+
+\newpage
+% PLANOS
+
+\part{Planos} 
+
+\input{Planos/planos.tex}
+
+
+
+\newpage
+% PLIEGO DE CONDICIONES
+
+\part{Pliego de Condiciones} 
+
+\input{PliegoCondiciones/pliego.tex}
+
+
+
+\newpage
+% PRESUPUESTO
+
+\part{Presupuesto} 
+
+\input{Presupuesto/presupuesto.tex}
+
+\end{document}
+
+
+
+
