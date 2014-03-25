@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  20 MAR 2014 19:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  25 MAR 2014 12:37
 entering extended mode
  %&-line parsing enabled.
 **Proyecto.tex
@@ -689,10 +689,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
-)
-\tf@toc=\write4
-\openout4 = `Proyecto.toc'.
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -700,27 +696,86 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1] (./Memoria/memoria.tex [2
+[1])
+\tf@toc=\write4
+\openout4 = `Proyecto.toc'.
 
-]) [3] (./Planos/planos.tex) [4]
-(./PliegoCondiciones/pliego.tex) [5] (./Presupuesto/presupuesto.tex) [6]
-(./Proyecto.aux) ) 
+ [2] (./Memoria/memoria.tex [3
+
+] [4]
+<Datasheets/1MaquinaSecado.png, id=26, 976.64874pt x 1193.45876pt>
+File: Datasheets/1MaquinaSecado.png Graphic file (type png)
+
+<use Datasheets/1MaquinaSecado.png> [5 <./Datasheets/1MaquinaSecado.png>]
+<Datasheets/2MaquinaPrensado.png, id=32, 751.80875pt x 2052.66875pt>
+File: Datasheets/2MaquinaPrensado.png Graphic file (type png)
+
+<use Datasheets/2MaquinaPrensado.png> [6 <./Datasheets/2MaquinaPrensado.png>]
+<Datasheets/3Foto.png, id=38, 482.80376pt x 360.34625pt>
+File: Datasheets/3Foto.png Graphic file (type png)
+
+<use Datasheets/3Foto.png>
+<Datasheets/3MaquinaVerificacion.png, id=39, 747.79375pt x 821.0675pt>
+File: Datasheets/3MaquinaVerificacion.png Graphic file (type png)
+
+<use Datasheets/3MaquinaVerificacion.png> [7 <./Datasheets/3Foto.png (PNG copy)
+> <./Datasheets/3MaquinaVerificacion.png>]
+<Datasheets/4Foto.png, id=44, 651.43375pt x 416.55624pt>
+File: Datasheets/4Foto.png Graphic file (type png)
+
+<use Datasheets/4Foto.png>
+<Datasheets/4MaquinaRevestimiento.png, id=45, 762.85pt x 1145.27875pt>
+File: Datasheets/4MaquinaRevestimiento.png Graphic file (type png)
+
+<use Datasheets/4MaquinaRevestimiento.png>
+Overfull \vbox (7.89508pt too high) has occurred while \output is active []
+
+
+[8 <./Datasheets/4Foto.png (PNG copy)> <./Datasheets/4MaquinaRevestimiento.png>
+] <Datasheets/5Foto.png, id=50, 652.4375pt x 433.62pt>
+File: Datasheets/5Foto.png Graphic file (type png)
+
+<use Datasheets/5Foto.png>
+<Datasheets/5MaquinaBlisters.png, id=51, 750.805pt x 997.7275pt>
+File: Datasheets/5MaquinaBlisters.png Graphic file (type png)
+
+<use Datasheets/5MaquinaBlisters.png>
+Overfull \vbox (9.5782pt too high) has occurred while \output is active []
+
+
+[9 <./Datasheets/5Foto.png (PNG copy)> <./Datasheets/5MaquinaBlisters.png>]
+<Datasheets/6Foto.png, id=56, 508.90125pt x 340.27126pt>
+File: Datasheets/6Foto.png Graphic file (type png)
+
+<use Datasheets/6Foto.png>
+<Datasheets/6MaquinaCajas.png, id=57, 738.76pt x 584.1825pt>
+File: Datasheets/6MaquinaCajas.png Graphic file (type png)
+
+<use Datasheets/6MaquinaCajas.png> [10 <./Datasheets/6Foto.png (PNG copy)> <./D
+atasheets/6MaquinaCajas.png>]
+<Datasheets/7MaquinaEmpaquetado.png, id=62, 750.805pt x 1046.91125pt>
+File: Datasheets/7MaquinaEmpaquetado.png Graphic file (type png)
+
+<use Datasheets/7MaquinaEmpaquetado.png> [11 <./Datasheets/7MaquinaEmpaquetado.
+png>]) [12] (./Planos/planos.tex) [13] (./PliegoCondiciones/pliego.tex)
+[14] (./Presupuesto/presupuesto.tex) [15] (./Proyecto.aux) ) 
 Here is how much of TeX's memory you used:
- 10873 strings out of 495061
- 201580 string characters out of 1182621
- 252664 words of memory out of 3000000
- 13821 multiletter control sequences out of 15000+50000
+ 10930 strings out of 495061
+ 203203 string characters out of 1182621
+ 253664 words of memory out of 3000000
+ 13865 multiletter control sequences out of 15000+50000
  10418 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 56i,12n,55p,419b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Proyecto.pdf (7 pages, 114626 bytes).
+ 56i,12n,55p,419b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
+10.pfb>
+Output written on Proyecto.pdf (16 pages, 3424850 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

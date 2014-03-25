@@ -25,9 +25,15 @@ Se sigue el Reglamento Electrotécnico de Baja Tensión
 
 \subsection{Instalación eléctrica}
 \subsection{Maquinaria}
-	\paragraph{Máquina de secado}
+	\subsubsection{Máquina de secado de polvo}
+	\subsubsection{Máquina de compresión en tabletas}
+	\subsubsection{Máquina de verificación de dureza de tabletas}
+	\subsubsection{Máquina de revestimiento de tabletas}
+	\subsubsection{Máquina de sellado de blisters }
+	\subsubsection{Máquina de fabricación de cajas}	
+	\subsubsection{Máquina de empaquetado}
+	\subsubsection{Robot de paletizado}
 	
-
 \section{Sistema propuesto}
 
 \section{Anexos}
@@ -52,15 +58,43 @@ Se sigue el Reglamento Electrotécnico de Baja Tensión
 \paragraph{Protección contra intrusión}
 
 \subsection{Anexo de código}
-
+\newpage
 \subsection{Anexo de catálogos}
 \subsubsection{Máquina de secado de polvo}
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/1MaquinaSecado.png} 
+\newpage
+
 \subsubsection{Máquina de compresión en tabletas}
-\subsubsection{Máquina de prueba de dureza de tabletas}
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/2MaquinaPrensado.png} 
+\newpage
+
+\subsubsection{Máquina de verificación de dureza de tabletas}
+\includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/3Foto.png} 
+\\
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/3MaquinaVerificacion.png} 
+\newpage
+
 \subsubsection{Máquina de revestimento de tabletas}
+\includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/4Foto.png} 
+\\
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/4MaquinaRevestimiento.png} 
+\newpage
+
 \subsubsection{Máquina de sellado de blisters}
-\subsubsection{Máquina de formación de cajas}
+\includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/5Foto.png} 
+\\
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/5MaquinaBlisters.png} 
+\newpage
+
+\subsubsection{Máquina de fabricación de cajas}
+\includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/6Foto.png} 
+\\
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/6MaquinaCajas.png} 
+\newpage
+
 \subsubsection{Máquina de empaquetado}
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/7MaquinaEmpaquetado.png} 
+\newpage
 \subsubsection{Robot de paletizado}
 
 \subsection{Planificación}
