@@ -35,7 +35,6 @@ Se sigue el Reglamento Electrotécnico de Baja Tensión
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Descripción general}
  
-\subsection{Planta}
 El recinto tiene una superficie de ??????????? metros cuadrados, incluyendo la nave con las oficinas y un espacio de maniobra para camiones.
 La nave tiene una superficie útil de ????????? metros cuadrados y se divide en tres zonas distintas: zona de carga y descarga de materiales, zona de almacenamiento de materia prima, zona de almacenamiento del produto finalizado y zona de máquinas donde se realiza el proceso de fabricación.
 \\
@@ -48,21 +47,6 @@ En la zona de máquinas se lleva a cabo todo el proceso de transformación del p
 
 El espacio de oficinas cosiste de una recepción y un centro de control en la planta baja y un despacho y puestos de trabajo en el segundo nivel. Ambos pisos disponen de baños.
 
-\subsection{Procesos}
-Cuando el horno emita una señal de aviso un operario procederá a llenar el depósito de dicho horno con la materia prima. Una vez lleno, el horno libera el polvo uniformemente sobre una cinta transportadora. Esta lo transporta por el horno de manera ondulante para eliminar cualquier tipo de humedad. 
-\\
-
-A la salida del horno el polvo es introducido en una máquina de compresión, donde es convertido en pastillas y se le imprime el nombre de la pastilla.  Acto seguido pasa por una máquina de comprobación, que desecha cualquier pastilla que haya resultado demasiado frágil por seguir húmeda tras el horno. Las pastillas desechadas, se trituran y depositan en un recipiente para que el operario lo reintroduzca en el horno en la siguiente iteración. 
-\\
-
-El resto de pastillas continúa hasta un tambor donde se les da un revestimiento de agua con colorantes para su identificación y conservación, al endurecer así la capa exterior y evitar que se deshagan. Tras ser rociadas por pulsos muy rápidos y cortos para favorecer un secado rápido son transportadas a una máquina de sellado.
-\\
-
-En esta máquina se dejan caer pastillas hasta llenar un depósito, donde mediante un sensor indica el llenado. La selladora coloca las pastillas en posición segun la matriz utilizada. Paralelamente tira del rollo de plástico en lámina y lo coloca debajo de la parte superior. Al bajar, ésta deforma la lámina con unos cabezales calientes y crea los habitáculos donde inmediatamente inserta las tabletas. Acto seguido se corta el plástico y este avanza a la siguiente posición donde se le coloca una lámina de alumnio con el logo impreso y es sellado por calor al bajar la parte superior en la siguiente iteración. 
-\\
-
-Finalmente se transportan los blisters sellados por otra cinta transportadora a la máquina de empaquetado, que coge las cartulinas de las cajas y las dobla para darles su forma final e inserta los blisters en la caja, asi como un folleto explicativo previamente impreso y doblado. Las cajas con el produto final se dejan caer por una rampa hasta una mesa donde un brazo robótico equipado con una cámara coge las cajas individuales y las coloca en cajas de lotes en un palé para ser recogido por un operario y almacenado en una estantería. Un segundo brazo robótico coje un palé de una pila de palés vacíos y lo coloca en la posición del anterior.
-\\
 
 
 
@@ -82,6 +66,25 @@ Finalmente se transportan los blisters sellados por otra cinta transportadora a 
 	\subsubsection{Robot de paletizado}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 \section{Sistema propuesto}
+
+
+Cuando el horno emita una señal de aviso un operario procederá a llenar el depósito de dicho horno con la materia prima. Una vez lleno, el horno libera el polvo uniformemente sobre una cinta transportadora. Esta lo transporta por el horno de manera ondulante para eliminar cualquier tipo de humedad. 
+\\
+
+A la salida del horno el polvo es introducido en una máquina de compresión, donde es convertido en pastillas y se le imprime el nombre de la pastilla.  Acto seguido pasa por una máquina de comprobación, que desecha cualquier pastilla que haya resultado demasiado frágil por seguir húmeda tras el horno. Las pastillas desechadas, se trituran y depositan en un recipiente para que el operario lo reintroduzca en el horno en la siguiente iteración. 
+\\
+
+El resto de pastillas continúa hasta un tambor donde se les da un revestimiento de agua con colorantes para su identificación y conservación, al endurecer así la capa exterior y evitar que se deshagan. Tras ser rociadas por pulsos muy rápidos y cortos para favorecer un secado rápido son transportadas a una máquina de sellado.
+\\
+
+En esta máquina se dejan caer pastillas hasta llenar un depósito, donde mediante un sensor indica el llenado. La selladora coloca las pastillas en posición segun la matriz utilizada. Paralelamente tira del rollo de plástico en lámina y lo coloca debajo de la parte superior. Al bajar, ésta deforma la lámina con unos cabezales calientes y crea los habitáculos donde inmediatamente inserta las tabletas. Acto seguido se corta el plástico y este avanza a la siguiente posición donde se le coloca una lámina de alumnio con el logo impreso y es sellado por calor al bajar la parte superior en la siguiente iteración. 
+\\
+
+Finalmente se transportan los blisters sellados por otra cinta transportadora a la máquina de empaquetado, que coge las cartulinas de las cajas y las dobla para darles su forma final e inserta los blisters en la caja, asi como un folleto explicativo previamente impreso y doblado. Las cajas con el produto final se dejan caer por una rampa hasta una mesa donde un brazo robótico equipado con una cámara coge las cajas individuales y las coloca en cajas de lotes en un palé para ser recogido por un operario y almacenado en una estantería. Un segundo brazo robótico coje un palé de una pila de palés vacíos y lo coloca en la posición del anterior.
+\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Flujograma}
+\includegraphics[width=15cm,height=20cm,keepaspectratio]{Planos/Flujograma.png}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Anexos}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  27 MAR 2014 20:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  28 MAR 2014 00:19
 entering extended mode
  %&-line parsing enabled.
 **Proyecto.tex
@@ -707,69 +707,73 @@ Overfull \hbox (0.88982pt too wide) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
-[4] [5] [6] <Datasheets/1MaquinaSecado.png, id=33, 976.64874pt x 1193.45876pt>
+<Planos/Flujograma.png, id=26, 996.72375pt x 718.685pt>
+File: Planos/Flujograma.png Graphic file (type png)
+
+<use Planos/Flujograma.png> [5 <./Planos/Flujograma.png (PNG copy)>] [6]
+<Datasheets/1MaquinaSecado.png, id=34, 976.64874pt x 1193.45876pt>
 File: Datasheets/1MaquinaSecado.png Graphic file (type png)
 
 <use Datasheets/1MaquinaSecado.png> [7 <./Datasheets/1MaquinaSecado.png>]
-<Datasheets/2MaquinaPrensado.png, id=39, 751.80875pt x 2052.66875pt>
+<Datasheets/2MaquinaPrensado.png, id=40, 751.80875pt x 2052.66875pt>
 File: Datasheets/2MaquinaPrensado.png Graphic file (type png)
 
 <use Datasheets/2MaquinaPrensado.png> [8 <./Datasheets/2MaquinaPrensado.png>]
-<Datasheets/3Foto.png, id=44, 482.80376pt x 360.34625pt>
+<Datasheets/3Foto.png, id=45, 482.80376pt x 360.34625pt>
 File: Datasheets/3Foto.png Graphic file (type png)
 
 <use Datasheets/3Foto.png>
-<Datasheets/3MaquinaVerificacion.png, id=45, 747.79375pt x 821.0675pt>
+<Datasheets/3MaquinaVerificacion.png, id=46, 747.79375pt x 821.0675pt>
 File: Datasheets/3MaquinaVerificacion.png Graphic file (type png)
 
 <use Datasheets/3MaquinaVerificacion.png> [9 <./Datasheets/3Foto.png (PNG copy)
 > <./Datasheets/3MaquinaVerificacion.png>]
-<Datasheets/4Foto.png, id=50, 651.43375pt x 416.55624pt>
+<Datasheets/4Foto.png, id=51, 651.43375pt x 416.55624pt>
 File: Datasheets/4Foto.png Graphic file (type png)
 
 <use Datasheets/4Foto.png>
-<Datasheets/4MaquinaRevestimiento.png, id=51, 762.85pt x 1145.27875pt>
+<Datasheets/4MaquinaRevestimiento.png, id=52, 762.85pt x 1145.27875pt>
 File: Datasheets/4MaquinaRevestimiento.png Graphic file (type png)
 
 <use Datasheets/4MaquinaRevestimiento.png>
@@ -777,11 +781,11 @@ Overfull \vbox (7.89508pt too high) has occurred while \output is active []
 
 
 [10 <./Datasheets/4Foto.png (PNG copy)> <./Datasheets/4MaquinaRevestimiento.png
->] <Datasheets/5Foto.png, id=56, 652.4375pt x 433.62pt>
+>] <Datasheets/5Foto.png, id=57, 652.4375pt x 433.62pt>
 File: Datasheets/5Foto.png Graphic file (type png)
 
 <use Datasheets/5Foto.png>
-<Datasheets/5MaquinaBlisters.png, id=57, 750.805pt x 997.7275pt>
+<Datasheets/5MaquinaBlisters.png, id=58, 750.805pt x 997.7275pt>
 File: Datasheets/5MaquinaBlisters.png Graphic file (type png)
 
 <use Datasheets/5MaquinaBlisters.png>
@@ -789,38 +793,38 @@ Overfull \vbox (9.5782pt too high) has occurred while \output is active []
 
 
 [11 <./Datasheets/5Foto.png (PNG copy)> <./Datasheets/5MaquinaBlisters.png>]
-<Datasheets/6Foto.png, id=62, 508.90125pt x 340.27126pt>
+<Datasheets/6Foto.png, id=63, 508.90125pt x 340.27126pt>
 File: Datasheets/6Foto.png Graphic file (type png)
 
 <use Datasheets/6Foto.png>
-<Datasheets/6MaquinaCajas.png, id=63, 738.76pt x 584.1825pt>
+<Datasheets/6MaquinaCajas.png, id=64, 738.76pt x 584.1825pt>
 File: Datasheets/6MaquinaCajas.png Graphic file (type png)
 
 <use Datasheets/6MaquinaCajas.png> [12 <./Datasheets/6Foto.png (PNG copy)> <./D
 atasheets/6MaquinaCajas.png>]
-<Datasheets/7MaquinaEmpaquetado.png, id=69, 750.805pt x 1046.91125pt>
+<Datasheets/7MaquinaEmpaquetado.png, id=70, 750.805pt x 1046.91125pt>
 File: Datasheets/7MaquinaEmpaquetado.png Graphic file (type png)
 
 <use Datasheets/7MaquinaEmpaquetado.png> [13 <./Datasheets/7MaquinaEmpaquetado.
 png>]) [14] (./Planos/planos.tex) [15] (./PliegoCondiciones/pliego.tex)
 [16] (./Presupuesto/presupuesto.tex) [17] (./Proyecto.aux) ) 
 Here is how much of TeX's memory you used:
- 10932 strings out of 495061
- 203229 string characters out of 1182621
- 254664 words of memory out of 3000000
- 13867 multiletter control sequences out of 15000+50000
+ 10937 strings out of 495061
+ 203346 string characters out of 1182621
+ 254662 words of memory out of 3000000
+ 13871 multiletter control sequences out of 15000+50000
  10719 words of font info for 37 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 56i,13n,55p,709b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,55p,709b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/font
 s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
 nts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
 10.pfb>
-Output written on Proyecto.pdf (18 pages, 3432315 bytes).
+Output written on Proyecto.pdf (18 pages, 3488527 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
