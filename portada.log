@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  4 MAR 2014 17:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  2 APR 2014 23:36
 entering extended mode
  %&-line parsing enabled.
 **portada.tex
@@ -130,9 +130,76 @@ Overfull \hbox (37.55536pt too wide) in paragraph at lines 8--8
  []
 
 ! Undefined control sequence.
+<recently read> \LARGE 
+                       
+l.9 ...r√≠a Electr√≥nica Industrial y Autom√°tica}
+                                                  \\[0.5cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no √ in font cmcsc10!
+Missing character: There is no ≠ in font cmcsc10!
+Missing character: There is no √ in font cmcsc10!
+Missing character: There is no ≥ in font cmcsc10!
+Missing character: There is no √ in font cmcsc10!
+Missing character: There is no ° in font cmcsc10!
+
+Overfull \hbox (49.0664pt too wide) in paragraph at lines 9--9
+ []\OT1/cmr/m/sc/10 Ingeniera 
+ []
+
+
+Overfull \hbox (27.81644pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 Elec- 
+ []
+
+
+Overfull \hbox (15.71101pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 tr- 
+ []
+
+
+Overfull \hbox (21.1999pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 nica 
+ []
+
+
+Overfull \hbox (13.96655pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 In- 
+ []
+
+
+Overfull \hbox (20.73325pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 dus- 
+ []
+
+
+Overfull \hbox (26.22209pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 trial 
+ []
+
+
+Overfull \hbox (6.13332pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 y 
+ []
+
+
+Overfull \hbox (17.7582pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 Au- 
+ []
+
+
+Overfull \hbox (40.71089pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 tomtica 
+ []
+
+! Undefined control sequence.
 <recently read> \Large 
                        
-l.9 \textsc{\Large Departamento de Ni Idea}
+l.10 \textsc{\Large Oficina T√©cnica 23-03}
                                            \\[4cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -140,62 +207,155 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no √ in font cmcsc10!
+Missing character: There is no © in font cmcsc10!
 
-Overfull \hbox (73.09122pt too wide) in paragraph at lines 9--9
- []\OT1/cmr/m/sc/10 Departamento 
+Overfull \hbox (38.02202pt too wide) in paragraph at lines 10--10
+ []\OT1/cmr/m/sc/10 Oficina 
  []
 
 
-Overfull \hbox (11.82217pt too wide) in paragraph at lines 9--9
- \OT1/cmr/m/sc/10 de 
+Overfull \hbox (17.54985pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/m/sc/10 Tc- 
  []
 
 
-Overfull \hbox (11.16101pt too wide) in paragraph at lines 9--9
- \OT1/cmr/m/sc/10 Ni 
+Overfull \hbox (21.1999pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/m/sc/10 nica 
  []
 
 
-Overfull \hbox (22.01099pt too wide) in paragraph at lines 9--9
- \OT1/cmr/m/sc/10 Idea 
+Overfull \hbox (14.83319pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/m/sc/10 23- 
+ []
+
+
+Overfull \hbox (11.05545pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/m/sc/10 03 
  []
 
 ! Undefined control sequence.
 l.13 {\LARGE
-             \bfseries{Nombre del Proyecto}\\[4.5cm]}
+             \bfseries{Instalaci√≥n el√©ctrica y automatizaci√≥n de una f√°b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no √ in font cmbx10!
+Missing character: There is no ≥ in font cmbx10!
+Missing character: There is no √ in font cmbx10!
+Missing character: There is no © in font cmbx10!
+Missing character: There is no √ in font cmbx10!
+Missing character: There is no ≥ in font cmbx10!
+Missing character: There is no √ in font cmbx10!
+Missing character: There is no ° in font cmbx10!
 
-Overfull \hbox (40.40953pt too wide) in paragraph at lines 13--13
- []\OT1/cmr/bx/n/10 Nombre 
+Overfull \hbox (48.82745pt too wide) in paragraph at lines 13--13
+ []\OT1/cmr/bx/n/10 Instalacin 
  []
 
 
-Overfull \hbox (14.8541pt too wide) in paragraph at lines 13--13
- \OT1/cmr/bx/n/10 del 
+Overfull \hbox (36.68036pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 elctrica 
  []
 
 
-Overfull \hbox (44.38173pt too wide) in paragraph at lines 13--13
- \OT1/cmr/bx/n/10 Proyecto 
+Overfull \hbox (6.06941pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 y 
  []
 
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 9 in font nullfont!
+
+Overfull \hbox (15.8124pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 au- 
+ []
+
+
+Overfull \hbox (23.63876pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 tom- 
+ []
+
+
+Overfull \hbox (9.42354pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 a- 
+ []
+
+
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 ti- 
+ []
+
+
+Overfull \hbox (25.39568pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 zacin 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 una 
+ []
+
+
+Overfull \hbox (28.53456pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 fbrica 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (24.27765pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 com- 
+ []
+
+
+Overfull \hbox (18.68741pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 ple- 
+ []
+
+
+Overfull \hbox (25.07626pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 men- 
+ []
+
+
+Overfull \hbox (14.75824pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 tos 
+ []
+
+
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 al- 
+ []
+
+
+Overfull \hbox (7.02774pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 i- 
+ []
+
+
+Overfull \hbox (25.07626pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 men- 
+ []
+
+
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 ti- 
+ []
+
+
+Overfull \hbox (18.59155pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 cios 
+ []
+
 Missing character: There is no D in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no v in font nullfont!
@@ -215,20 +375,27 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no z in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no : in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 8 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 6 in font nullfont!
 Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no G in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no √ in font nullfont!
-Missing character: There is no Å in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no A in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -250,9 +417,29 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 
-Overfull \hbox (43.1718pt too wide) in paragraph at lines 22--25
-[]\OT1/cmr/bx/it/10 Autores: 
+Overfull \hbox (56.67169pt too wide) in paragraph at lines 22--25
+[]\OT1/cmr/bx/it/10 Ingenieros: 
  []
 
 Missing character: There is no C in font nullfont!
@@ -322,11 +509,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 18 strings out of 495061
- 255 string characters out of 1182621
- 46108 words of memory out of 3000000
- 3291 multiletter control sequences out of 15000+50000
+ 19 strings out of 495061
+ 260 string characters out of 1182621
+ 47108 words of memory out of 3000000
+ 3292 multiletter control sequences out of 15000+50000
  4954 words of font info for 18 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 14i,1n,10p,86b,118s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 14i,1n,10p,145b,118s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
