@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  3 APR 2014 01:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  3 APR 2014 12:21
 entering extended mode
  %&-line parsing enabled.
 **Proyecto.tex
@@ -945,7 +945,7 @@ Overfull \vbox (75.73224pt too high) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  10968 strings out of 495061
  203697 string characters out of 1182621
- 253663 words of memory out of 3000000
+ 253664 words of memory out of 3000000
  13895 multiletter control sequences out of 15000+50000
  13181 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -960,7 +960,7 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on Proyecto.pdf (28 pages, 3240074 bytes).
+Output written on Proyecto.pdf (28 pages, 3240766 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
