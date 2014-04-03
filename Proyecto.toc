@@ -57,15 +57,16 @@
 \contentsline {subsection}{\numberline {11.2}Condiciones instalaci\IeC {\'o}n el\IeC {\'e}ctrica}{21}
 \contentsline {subsection}{\numberline {11.3}Condiciones maquinaria}{21}
 \contentsline {paragraph}{Cintas transportadoras:}{21}
-\contentsline {paragraph}{M\IeC {\'a}quina de compresi\IeC {\'o}n:}{21}
+\contentsline {paragraph}{M\IeC {\'a}quina de secado:}{21}
+\contentsline {paragraph}{M\IeC {\'a}quina de compresi\IeC {\'o}n:}{22}
 \contentsline {paragraph}{M\IeC {\'a}quina de verificaci\IeC {\'o}n:}{22}
 \contentsline {paragraph}{M\IeC {\'a}quina de revestimiento:}{22}
-\contentsline {paragraph}{M\IeC {\'a}quina de blisters:}{22}
+\contentsline {paragraph}{M\IeC {\'a}quina de blisters:}{23}
 \contentsline {paragraph}{M\IeC {\'a}quina de empaquetado:}{23}
-\contentsline {section}{\numberline {12}Pliego de procesos de ejecuci\IeC {\'o}n}{24}
-\contentsline {subsection}{\numberline {12.1}Objetivo del pliego}{24}
-\contentsline {subsection}{\numberline {12.2}Transporte de elementos}{24}
-\contentsline {subsection}{\numberline {12.3}Colocaci\IeC {\'o}n de m\IeC {\'a}quinas}{24}
-\contentsline {subsection}{\numberline {12.4}Conexionado de m\IeC {\'a}quinas}{24}
-\contentsline {section}{\numberline {13}Firmas de los ingenieros}{25}
-\contentsline {part}{IV\hspace {1em}Presupuesto}{26}
+\contentsline {section}{\numberline {12}Pliego de procesos de ejecuci\IeC {\'o}n}{25}
+\contentsline {subsection}{\numberline {12.1}Objetivo del pliego}{25}
+\contentsline {subsection}{\numberline {12.2}Transporte de elementos}{25}
+\contentsline {subsection}{\numberline {12.3}Colocaci\IeC {\'o}n de m\IeC {\'a}quinas}{25}
+\contentsline {subsection}{\numberline {12.4}Conexionado de m\IeC {\'a}quinas}{25}
+\contentsline {section}{\numberline {13}Firmas de los ingenieros}{26}
+\contentsline {part}{IV\hspace {1em}Presupuesto}{27}

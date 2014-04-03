@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  3 APR 2014 12:21
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  3 APR 2014 13:04
 entering extended mode
  %&-line parsing enabled.
 **Proyecto.tex
@@ -882,10 +882,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--203
 File: Planos/Flujograma.png Graphic file (type png)
 
 <use Planos/Flujograma.png> [9 <./Planos/Flujograma.png (PNG copy)>] [10]
-[11] <Datasheets/1MaquinaSecado.png, id=54, 976.64874pt x 1193.45876pt>
-File: Datasheets/1MaquinaSecado.png Graphic file (type png)
+[11] <Datasheets/1Horno.png, id=54, 742.775pt x 1222.5675pt>
+File: Datasheets/1Horno.png Graphic file (type png)
 
-<use Datasheets/1MaquinaSecado.png> [12 <./Datasheets/1MaquinaSecado.png>]
+<use Datasheets/1Horno.png> [12 <./Datasheets/1Horno.png>]
 <Datasheets/2MaquinaPrensado.png, id=61, 751.80875pt x 2052.66875pt>
 File: Datasheets/2MaquinaPrensado.png Graphic file (type png)
 
@@ -928,8 +928,12 @@ File: Datasheets/7MaquinaEmpaquetado.png Graphic file (type png)
 
 <use Datasheets/7MaquinaEmpaquetado.png> [17 <./Datasheets/7MaquinaEmpaquetado.
 png>]) [18] (./Planos/planos.tex) [19] (./PliegoCondiciones/pliego.tex [20]
-[21] [22] [23] [24]) [25] [26]
-<Presupuesto/presupuesto.pdf, id=118, 614.295pt x 794.97pt>
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[21] [22] [23] [24] [25]) [26] [27]
+<Presupuesto/presupuesto.pdf, id=121, 614.295pt x 794.97pt>
 File: Presupuesto/presupuesto.pdf Graphic file (type pdf)
 
 <use Presupuesto/presupuesto.pdf>
@@ -941,10 +945,10 @@ Overfull \hbox (115.95813pt too wide) in paragraph at lines 72--74
 Overfull \vbox (75.73224pt too high) has occurred while \output is active []
 
 
-[27 <./Presupuesto/presupuesto.pdf>] (./Proyecto.aux) ) 
+[28 <./Presupuesto/presupuesto.pdf>] (./Proyecto.aux) ) 
 Here is how much of TeX's memory you used:
  10968 strings out of 495061
- 203697 string characters out of 1182621
+ 203657 string characters out of 1182621
  253664 words of memory out of 3000000
  13895 multiletter control sequences out of 15000+50000
  13181 words of font info for 45 fonts, out of 3000000 for 9000
@@ -960,9 +964,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on Proyecto.pdf (28 pages, 3240766 bytes).
+Output written on Proyecto.pdf (29 pages, 2945831 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
