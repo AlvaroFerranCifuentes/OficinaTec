@@ -12,6 +12,7 @@
 \contentsline {subsubsection}{\numberline {6.1.2}Previsi\IeC {\'o}n de potencia}{6}
 \contentsline {subsubsection}{\numberline {6.1.3}Cuadro General de Mando y Protecci\IeC {\'o}n y cuadros secundarios}{7}
 \contentsline {subsubsection}{\numberline {6.1.4}Instalaci\IeC {\'o}n el\IeC {\'e}ctrica de la oficina}{7}
+<<<<<<< Updated upstream
 \contentsline {subsubsection}{\numberline {6.1.5}Instalaci\IeC {\'o}n el\IeC {\'e}crtica de la zona de fabricaci\IeC {\'o}n y almac\IeC {\'e}n}{10}
 \contentsline {subsection}{\numberline {6.2}Maquinaria}{11}
 \contentsline {subsubsection}{\numberline {6.2.1}M\IeC {\'a}quina de secado de polvo}{11}
@@ -50,6 +51,47 @@
 \contentsline {subsubsection}{\numberline {10.3.6}M\IeC {\'a}quina de empaquetado}{20}
 \contentsline {subsubsection}{\numberline {10.3.7}Robot de paletizado}{21}
 \contentsline {subsection}{\numberline {10.4}Planificaci\IeC {\'o}n}{21}
+=======
+\contentsline {subsubsection}{\numberline {6.1.5}Instalaci\IeC {\'o}n el\IeC {\'e}crtica de la zona de fabricaci\IeC {\'o}n y almac\IeC {\'e}n}{7}
+\contentsline {subsection}{\numberline {6.2}Maquinaria}{8}
+\contentsline {subsubsection}{\numberline {6.2.1}M\IeC {\'a}quina de secado de polvo}{8}
+\contentsline {subsubsection}{\numberline {6.2.2}M\IeC {\'a}quina de compresi\IeC {\'o}n en tabletas}{8}
+\contentsline {subsubsection}{\numberline {6.2.3}M\IeC {\'a}quina de verificaci\IeC {\'o}n de dureza de tabletas}{9}
+\contentsline {subsubsection}{\numberline {6.2.4}M\IeC {\'a}quina de revestimiento de tabletas}{9}
+\contentsline {subsubsection}{\numberline {6.2.5}M\IeC {\'a}quina de sellado de blisters }{9}
+\contentsline {subsubsection}{\numberline {6.2.6}M\IeC {\'a}quina de empaquetado}{9}
+\contentsline {subsubsection}{\numberline {6.2.7}Robot pick and place}{9}
+\contentsline {subsubsection}{\numberline {6.2.8}Robot de paletizado}{10}
+\contentsline {section}{\numberline {7}Sistema propuesto}{10}
+\contentsline {section}{\numberline {8}Flujograma}{11}
+\contentsline {section}{\numberline {9}Firmas de los ingenieros}{12}
+\contentsline {section}{\numberline {10}Anexos}{13}
+\contentsline {subsection}{\numberline {10.1}Anexo de c\IeC {\'a}lculos:}{13}
+\contentsline {subsubsection}{\numberline {10.1.1}C\IeC {\'a}lculos de la Instalaci\IeC {\'o}n el\IeC {\'e}ctrica}{13}
+\contentsline {paragraph}{Dise\IeC {\~n}o del cuadro general de protecci\IeC {\'o}n y mando}{13}
+\contentsline {paragraph}{C\IeC {\'a}lculo de las l\IeC {\'\i }neas de alimentaci\IeC {\'o}n de cada m\IeC {\'a}quina}{13}
+\contentsline {paragraph}{C\IeC {\'a}lculo de las l\IeC {\'\i }neas para las tomas de corriente de uso general}{13}
+\contentsline {paragraph}{C\IeC {\'a}lculo de las l\IeC {\'\i }neas para las tomas de corriente con SAI}{13}
+\contentsline {paragraph}{C\IeC {\'a}lculo de las l\IeC {\'\i }neas para iluminaci\IeC {\'o}n}{13}
+\contentsline {paragraph}{C\IeC {\'a}lculo de las l\IeC {\'\i }neas para iluminaci\IeC {\'o}n de emergencia}{13}
+\contentsline {subsubsection}{\numberline {10.1.2}C\IeC {\'a}lculo de las instalaciones de automatizaci\IeC {\'o}n}{13}
+\contentsline {paragraph}{Sensores }{13}
+\contentsline {paragraph}{Cuadro centralizaci\IeC {\'o}n de automatizaci\IeC {\'o}n}{13}
+\contentsline {paragraph}{Rack con PC industrial conectado a la red de la f\IeC {\'a}brica}{13}
+\contentsline {subsubsection}{\numberline {10.1.3}Instalaciones de seguridad}{13}
+\contentsline {paragraph}{Protecci\IeC {\'o}n de las personas}{13}
+\contentsline {paragraph}{Protecci\IeC {\'o}n contra intrusi\IeC {\'o}n}{13}
+\contentsline {subsection}{\numberline {10.2}Anexo de c\IeC {\'o}digo}{13}
+\contentsline {subsection}{\numberline {10.3}Anexo de cat\IeC {\'a}logos}{14}
+\contentsline {subsubsection}{\numberline {10.3.1}M\IeC {\'a}quina de secado de polvo}{14}
+\contentsline {subsubsection}{\numberline {10.3.2}M\IeC {\'a}quina de compresi\IeC {\'o}n en tabletas}{15}
+\contentsline {subsubsection}{\numberline {10.3.3}M\IeC {\'a}quina de verificaci\IeC {\'o}n de dureza de tabletas}{16}
+\contentsline {subsubsection}{\numberline {10.3.4}M\IeC {\'a}quina de revestimento de tabletas}{17}
+\contentsline {subsubsection}{\numberline {10.3.5}M\IeC {\'a}quina de sellado de blisters}{18}
+\contentsline {subsubsection}{\numberline {10.3.6}M\IeC {\'a}quina de empaquetado}{19}
+\contentsline {subsubsection}{\numberline {10.3.7}Robot pick and place}{20}
+\contentsline {subsubsection}{\numberline {10.3.8}Robot de paletizado}{21}
+>>>>>>> Stashed changes
 \contentsline {part}{II\hspace {1em}Planos}{22}
 \contentsline {part}{III\hspace {1em}Pliego de Condiciones}{23}
 \contentsline {section}{\numberline {11}Pliego de condiciones t\IeC {\'e}cnicas}{24}
@@ -70,3 +112,8 @@
 \contentsline {subsection}{\numberline {12.4}Conexionado de m\IeC {\'a}quinas}{28}
 \contentsline {section}{\numberline {13}Firmas de los ingenieros}{29}
 \contentsline {part}{IV\hspace {1em}Presupuesto}{30}
+<<<<<<< Updated upstream
+=======
+\contentsline {section}{\numberline {14}Presupuesto detallado}{31}
+\contentsline {section}{\numberline {15}Resumen presupuesto}{32}
+>>>>>>> Stashed changes

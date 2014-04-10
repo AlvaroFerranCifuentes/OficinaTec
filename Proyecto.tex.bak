@@ -48,7 +48,7 @@
 
 \part{Planos} 
 
-\input{Planos/planos.tex}
+%\input{Planos/planos.tex}
 
 
 
@@ -66,11 +66,8 @@
 \newpage
 \part{Presupuesto} 
 \newpage
-%\input{Presupuesto/presupuesto.tex}
+\input{Presupuesto/presupuesto.tex}
 
-\vspace*{-2cm}
-\hspace*{-2cm}
-\includegraphics{Presupuesto/presupuesto.pdf}
 
 
 \end{document}
