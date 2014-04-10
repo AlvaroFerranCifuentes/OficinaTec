@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  3 APR 2014 13:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.11)  9 APR 2014 23:41
 entering extended mode
  %&-line parsing enabled.
 **Proyecto.tex
@@ -670,7 +670,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
@@ -778,43 +778,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
@@ -823,117 +828,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[6]
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--203
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
 
  []
 
-<Planos/Flujograma.png, id=44, 996.72375pt x 718.685pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
+
+ []
+
+<Planos/Flujograma.png, id=50, 996.72375pt x 718.685pt>
 File: Planos/Flujograma.png Graphic file (type png)
 
-<use Planos/Flujograma.png> [9 <./Planos/Flujograma.png (PNG copy)>] [10]
-[11] <Datasheets/1Horno.png, id=54, 742.775pt x 1222.5675pt>
+<use Planos/Flujograma.png> [11] [12 <./Planos/Flujograma.png (PNG copy)>]
+[13] [14] <Datasheets/1Horno.png, id=64, 742.775pt x 1222.5675pt>
 File: Datasheets/1Horno.png Graphic file (type png)
 
-<use Datasheets/1Horno.png> [12 <./Datasheets/1Horno.png>]
-<Datasheets/2MaquinaPrensado.png, id=61, 751.80875pt x 2052.66875pt>
+<use Datasheets/1Horno.png> [15 <./Datasheets/1Horno.png>]
+<Datasheets/2MaquinaPrensado.png, id=70, 751.80875pt x 2052.66875pt>
 File: Datasheets/2MaquinaPrensado.png Graphic file (type png)
 
-<use Datasheets/2MaquinaPrensado.png> [13 <./Datasheets/2MaquinaPrensado.png>]
-<Datasheets/3Foto.png, id=66, 482.80376pt x 360.34625pt>
+<use Datasheets/2MaquinaPrensado.png> [16 <./Datasheets/2MaquinaPrensado.png>]
+<Datasheets/3Foto.png, id=75, 482.80376pt x 360.34625pt>
 File: Datasheets/3Foto.png Graphic file (type png)
 
 <use Datasheets/3Foto.png>
-<Datasheets/3MaquinaVerificacion.png, id=67, 747.79375pt x 821.0675pt>
+<Datasheets/3MaquinaVerificacion.png, id=76, 747.79375pt x 821.0675pt>
 File: Datasheets/3MaquinaVerificacion.png Graphic file (type png)
 
-<use Datasheets/3MaquinaVerificacion.png> [14 <./Datasheets/3Foto.png (PNG copy
+<use Datasheets/3MaquinaVerificacion.png> [17 <./Datasheets/3Foto.png (PNG copy
 )> <./Datasheets/3MaquinaVerificacion.png>]
-<Datasheets/4Foto.png, id=72, 651.43375pt x 416.55624pt>
+<Datasheets/4Foto.png, id=81, 651.43375pt x 416.55624pt>
 File: Datasheets/4Foto.png Graphic file (type png)
 
 <use Datasheets/4Foto.png>
-<Datasheets/4MaquinaRevestimiento.png, id=73, 762.85pt x 1145.27875pt>
+<Datasheets/4MaquinaRevestimiento.png, id=82, 762.85pt x 1145.27875pt>
 File: Datasheets/4MaquinaRevestimiento.png Graphic file (type png)
 
 <use Datasheets/4MaquinaRevestimiento.png>
 Overfull \vbox (7.89508pt too high) has occurred while \output is active []
 
 
-[15 <./Datasheets/4Foto.png (PNG copy)> <./Datasheets/4MaquinaRevestimiento.png
->] <Datasheets/5Foto.png, id=78, 652.4375pt x 433.62pt>
+[18 <./Datasheets/4Foto.png (PNG copy)> <./Datasheets/4MaquinaRevestimiento.png
+>] <Datasheets/5Foto.png, id=88, 652.4375pt x 433.62pt>
 File: Datasheets/5Foto.png Graphic file (type png)
 
 <use Datasheets/5Foto.png>
-<Datasheets/5MaquinaBlisters.png, id=79, 750.805pt x 997.7275pt>
+<Datasheets/5MaquinaBlisters.png, id=89, 750.805pt x 997.7275pt>
 File: Datasheets/5MaquinaBlisters.png Graphic file (type png)
 
 <use Datasheets/5MaquinaBlisters.png>
 Overfull \vbox (9.5782pt too high) has occurred while \output is active []
 
 
-[16 <./Datasheets/5Foto.png (PNG copy)> <./Datasheets/5MaquinaBlisters.png>]
-<Datasheets/7MaquinaEmpaquetado.png, id=84, 750.805pt x 1046.91125pt>
+[19 <./Datasheets/5Foto.png (PNG copy)> <./Datasheets/5MaquinaBlisters.png>]
+<Datasheets/7MaquinaEmpaquetado.png, id=94, 750.805pt x 1046.91125pt>
 File: Datasheets/7MaquinaEmpaquetado.png Graphic file (type png)
 
-<use Datasheets/7MaquinaEmpaquetado.png> [17 <./Datasheets/7MaquinaEmpaquetado.
-png>]) [18] (./Planos/planos.tex) [19] (./PliegoCondiciones/pliego.tex [20]
+<use Datasheets/7MaquinaEmpaquetado.png> [20 <./Datasheets/7MaquinaEmpaquetado.
+png>]) [21] (./Planos/planos.tex) [22] (./PliegoCondiciones/pliego.tex [23]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[21] [22] [23] [24] [25]) [26] [27]
-<Presupuesto/presupuesto.pdf, id=121, 614.295pt x 794.97pt>
+[24] [25] [26] [27] [28]) [29] [30]
+<Presupuesto/presupuesto.pdf, id=131, 614.295pt x 794.97pt>
 File: Presupuesto/presupuesto.pdf Graphic file (type pdf)
 
 <use Presupuesto/presupuesto.pdf>
@@ -945,28 +975,28 @@ Overfull \hbox (115.95813pt too wide) in paragraph at lines 72--74
 Overfull \vbox (75.73224pt too high) has occurred while \output is active []
 
 
-[28 <./Presupuesto/presupuesto.pdf>] (./Proyecto.aux) ) 
+[31 <./Presupuesto/presupuesto.pdf>] (./Proyecto.aux) ) 
 Here is how much of TeX's memory you used:
- 10968 strings out of 495061
- 203657 string characters out of 1182621
- 253664 words of memory out of 3000000
- 13895 multiletter control sequences out of 15000+50000
- 13181 words of font info for 45 fonts, out of 3000000 for 9000
+ 10954 strings out of 495061
+ 203519 string characters out of 1182621
+ 254664 words of memory out of 3000000
+ 13889 multiletter control sequences out of 15000+50000
+ 10719 words of font info for 37 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 56i,13n,55p,811b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,13n,55p,927b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb>
-Output written on Proyecto.pdf (29 pages, 2945831 bytes).
+msfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb>
+Output written on Proyecto.pdf (32 pages, 2963748 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 174 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
