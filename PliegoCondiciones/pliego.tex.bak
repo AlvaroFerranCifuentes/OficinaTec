@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage\section {Pliego de condiciones técnicas}
+
+\subsection{Objetivo del pliego}
+El presente pliego comprende el conjunto de condiciones técnicas que deberán cumplir la maquinaria instalada y la instalación eléctrica necesaria para la correcta ejecución del presente proyecto ``Instalación eléctrica y automatización de una fábrica de complementos alimenticios". 
+
+\subsection{Condiciones instalación eléctrica}
+
+
+\subsection{Condiciones maquinaria}
+%%%%%%%%%%%%%%%%%%%%CINTAS
+\paragraph{Cintas transportadoras:}
+		Las cintas transportadoras utilizadas deberán cumplir las siguientes condiciones:
+		
+		\begin{itemize}
+			\item{Longitud:}\\
+			Las longitudes de las cintas a instalar deberán ser las siguientes: 1.2m (dos unidades), 2.2m, 4.5m (tres unidades). La desviación admitada es de 0.02m.  
+
+			\item{Anchura:}\\
+			El ancho de las cintas a instalar debe ser de 0.63m.
+
+			\item{Altura:}\\
+			La altura de las cintas a instalar debe ser de 1.20m, con una tolerancia admitida de 0.01m.
+			
+			\item{Velocidad:}\\
+			La velocidad de las cintas deberá ser constante y su valor deberá encontrarse entre 0.3m/s y 0.5m/s, pudiendo transportar como mínimo 50kg de material por hora. 
+			
+			\item{Tipo de cubierta: }\\
+			La cubierta de las cintas deberá estar adaptada para el contacto directo con componentes destinados para consumo humano. Su superficie deberá ser lavable y desinfectable.
+
+			\item{Potencia demandada máxima (del conjunto de cintas):} 3.4kW.
+		
+		\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%COMPRESION
+\paragraph{Máquina de compresión:}
+		La máquina de compresión de pastillas deberá cumplir las siguientes condiciones:
+		
+		\begin{itemize}
+			\item{Longitud:}\\
+			La longitud de la máquina de compresión deberá ser menor de 2.82m.   
+
+			\item{Anchura:}\\
+			El ancho de la máquina debe ser menor de 1.53m.
+			
+			\item{Altura:}\\
+			La altura de las entradas y salidas de la máquina debe ser de 1.20m, con una tolerancia admitida de 0.01m.
+			
+			
+			\item{Condiciones de funcionamiento: }\\
+			La máquina de compresión deberá ser capaz de procesar como mínimo 50kg de polvo por hora y deberá estar fabricada en acero inoxidable propio para el tratado de alimentos.
+			
+
+			\item{Potencia demandada máxima :} 4kW.
+		
+		\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%VERIFICACION
+\paragraph{Máquina de verificación:}
+		La máquina de verificación de dureza deberá cumplir las siguientes condiciones:
+		
+		\begin{itemize}
+			\item{Longitud:}\\
+			La longitud de la máquina de verificación deberá ser de 3.1m. 
+
+			\item{Anchura:}\\
+			El ancho de la máquina debe ser de 1.55m.
+			
+			\item{Altura:}\\
+			La altura de las entradas y salidas de la máquina debe ser de 1.20m, con una tolerancia admitida de 0.01m.
+			
+			
+			\item{Condiciones de funcionamiento: }\\
+			La máquina debe ser capaz de inspeccionar 120000 pastillas por hora o 50kg por hora. Debe ser capaz de inspeccionar pastillas de mínimo 3 mm de grosor.
+
+			\item{Potencia demandada máxima :} 0.6kW.
+		
+		\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%REVISTIMIENTO
+\paragraph{Máquina de revestimiento:}
+		La máquina de revestimiento de pastillas deberá cumplir las siguientes condiciones:
+		
+		\begin{itemize}
+			\item{Longitud:}\\
+			La longitud de la máquina de compresión deberá ser de 2.61m. 
+
+			\item{Anchura:}\\
+			El ancho de la máquina debe ser menor de 3.31m.
+			
+			\item{Altura:}\\
+			La altura de las entradas y salidas de la máquina debe ser de 1.20m, con una tolerancia admitida de 0.01m.
+			La altura máxima de la máquina no debe sobrepasar los 2.5m de altura.
+			
+			
+			\item{Condiciones de funcionamiento: }\\
+			La máquina de revestimiento debe soportar una carga mínima de 50kg. Deberá tener una entrada y una salida separadas para garantizar el paso automático de una cinta transportadora a la siguiente. El tambor deberá girar a una velocidad comprendida entre 2.0 y 16 revoluciones por minuto.
+			
+
+			\item{Potencia demandada máxima :} 1.5kW.
+		
+		\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%BLISTERS
+\paragraph{Máquina de blisters:}
+		La máquina de formación de blisters deberá cumplir las siguientes condiciones:
+		
+		\begin{itemize}
+			\item{Longitud:}\\
+			La longitud de la máquina de compresión deberá ser de 4.79m.  
+
+			\item{Anchura:}\\
+			El ancho de la máquina debe ser de 1.53m.
+			
+			\item{Altura:}\\
+			La altura de las entradas y salidas de la máquina debe ser de 1.20m, con una tolerancia admitida de 0.01m.
+			
+			
+			\item{Condiciones de funcionamiento: }\\
+			La máquina de formación de blisters deberá posicionar las pastillas que le son suministradas automáticamente en una matriz del tamaño adecuado para su posterior empaquetado. Los polímeros utilizados para el embalaje de las pastillas deberán ser conformes con las normativas pertinentes respecto a la producción y manipulación de alimentos. Del mismo modo el aluminio utilizado para sellar las cápsulas deberá estar preparado para cumplir dichas normativas. 
+
+			
+
+			\item{Potencia demandada máxima :} 2.1kW.
+		
+		\end{itemize}		
+
+
+%%%%%%%%%%%%%%%%%%%%EMPAQUETADO
+\paragraph{Máquina de empaquetado:}
+		La máquina de empaquetado deberá cumplir las siguientes condiciones:
+		
+		\begin{itemize}
+			\item{Longitud:}\\
+			La longitud de la máquina de compresión deberá ser de 4.1m. 
+
+			\item{Anchura:}\\
+			El ancho máximo de la máquina debe ser de 1.88m, siendo el ancho útil de paso de pastillas de 1.53m.
+			
+			\item{Altura:}\\
+			La altura de las entradas y salidas de la máquina debe ser de 1.20m, con una tolerancia admitida de 0.01m.
+			
+			
+			\item{Condiciones de funcionamiento: }\\
+			La máquina debe plegar y sellar los cartones precortados y formar con ellos las cajas. Seguidamente deberá instertar un blister de pastillas y plegar e insertar en la caja el folleto explicativo correspondiente. Todo esto deberá hacerse con una frecuencia de al menos 200 cajas por minuto.
+			
+
+			\item{Potencia demandada máxima :} 3.4kW.
+		
+		\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage\section {Pliego de procesos de ejecución}
+
+\subsection{Objetivo del pliego}	
+El presente pliego comprende el conjunto de procesos de ejecución que se deberán cumplir al transportar e instalar los componentes necesarios para la correcta ejecución del presente proyecto ``Instalación eléctrica y automatización de una fábrica de complementos alimenticios".
+\\
+Todos los procesos deberán regirse por los reglamentos correspondientes y deberán realizarse siguiendo el espíritu y la recta interpretación del presente proyecto. Asimismo, todos los elementos utilizados deberán estar de acuerdo con lo estipulado en el pliego de condiciones técnicas.
+
+\subsection{Transporte de elementos}
+Todos los elementos deberán ser transportados en su embalaje original si existiera y se deberán tomar todas las medidas necesarias para garantizar la integridad de todos los elementos y evitar cualquier tipo de daño durante el transporte. 
+\\
+Los elementos deberán ser almacenados hasta su instalación en una nave o estructura similar debidamente acondicionada para evitar posibles daños.
+
+\subsection{Colocación de máquinas}
+
+\subsection{Conexionado de máquinas}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage\section {Firmas de los ingenieros}
+\vspace{5cm}
+Fdo. Alvaro Ferrán Cifuentes
+\vspace{5cm}\hspace{5cm}
+Fdo. David Antón Sánchez
