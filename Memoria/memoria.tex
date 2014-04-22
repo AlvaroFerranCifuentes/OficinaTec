@@ -61,6 +61,8 @@ Los camiones entrarían marcha atrás en la nave y los empleados procederían a 
 
 En la zona de fabricación se llevará a cabo todo el proceso de transformación del polvo a pastillas envasadas en cajas. Se situarán un horno de secado, una máquina de compresión, una máquina de verificación, un tambor de revestimiento, una máquina de formación de blisters y una última de embalaje, así como cintas para transportar los distintos elementos y dos brazos robóticos para paletizar el producto final. Estos palets se almacenan en estanterías cerca de la puerta en la zona de almacenamiento de producto.\\
 
+\pagebreak
+
 Las máquinas de la zona de fabricación disponen de una serie de sensores y actuadores que serán controlados por PC Industrial a través de una tarjeta de adquisición de datos. Se realizará tanto la instalación física de las máquinas, su electrificación y control, como la instalación eléctrica de la zona de oficinas y zona industrial. Todos los detalles y características de los elementos y procesos se encuentran detallados en las siguientes secciones del presente documento.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
@@ -70,7 +72,8 @@ Las máquinas de la zona de fabricación disponen de una serie de sensores y act
 
 \subsubsection{Red de suministro}
 
-La empresa encargada de suministrar energía eléctrica a la instalación será UNIÓN FENOSA, S.A.\\
+La empresa encargada de suministrar energía eléctrica a la instalación será:\\
+UNIÓN FENOSA, S.A.\\
 
 Características de la red de suministro:\
 
@@ -105,9 +108,11 @@ Los dispositivos generales e individuales de mando y protección de serán, como
 
 La elección calibre de las protecciones de los interruptores automáticos individuales vendrá determinada por la potencia máxima demandada por cada receptor y la intensidad máxima admisible por los conductores que lo alimentan, siguiendo el criterio:\
 
-$$ I_{MAX\ demandada\ receptor}\leq I_{AUTOMATICO}\leq I_{MAX\ admisible\ conductores}$$
+$$ I_{MAX\ demandada\ receptor}\leq I_{AUTOMATICO}\leq I_{MAX\ admisible\ conductores}$$\
 
-La distribución de los cuadros, así como los calibres de las protecciones y los circuitos a los que alimentan se encuentra detallado en el apartado [PLANOS]. Los cálculos de los calibres de los interruptores automáticos vendrán justificados en el apartado [CALCULOS]
+La distribución de los cuadros, así como los calibres de las protecciones y los circuitos a los que alimentan se encuentra detallado en el apartado [PLANOS]. Los cálculos de los calibres de los interruptores automáticos vendrán justificados en el apartado [CALCULOS]\\
+
+Los elementos a instalar en el cuadro vienen detallados en el [APARTADO PRESUPUESTO]\
 
 \subsubsection{Instalación eléctrica de la oficina}
 
@@ -115,30 +120,33 @@ Es la parte de la instalación eléctrica que partiendo del cuadro de de la ofic
 
 Está regulada en las ITC-BT 25 e ITC-BT 26 del R.E.B.T. donde se especifican las prescripciones generales de instalación y calibres de los tubos a utilizar en cada circuito. Los conductores utilizados para estos circuitos serán de cobre unipolares con aislamiento de cobre y una tensión asignada de 450/750V (H07Z1-K) siendo no propagadores del incendio y con emisión de humos y opacidad reducida. La instalación de estos conductores realizará bajo tubo curvable de 2 capas en montaje empotrado en pared de mampostería o bajo falso techo, donde proceda.\\
 
+\pagebreak
+
 La elección de las secciones de los conductores vendrá determinada por la potencia máxima demandada por cada receptor y la intensidad máxima admisible por los conductores que lo alimentan, siguiendo siguiendo los siguientes criterios:\\
 
-{\bfseries Criterio de caída de tensión}
+\underline{\bfseries Criterio de caída de tensión:}\
 
 La caída de tensión sera como máximo del 3\% en los circuitos de alumbrado y un 5\% en el resto de instalaciones. Esta caída de tensión se calculará para una intensidad de funcionamiento del circuito igual a la intensidad nominal del interruptor automático de dicho circuito y para una distancia correspondiente a la del punto de utilización mas alejado del origen de la instalación. El valor de la caída de tensión podrá compensarse entre el de la instalación eléctrica de la oficina y el de la derivación del Cuadro General de Mando y Protección al cuadro de la oficina, de forma que la caída de tensión total sea inferior a la suma de los valores límite especificados para ambas. Se calculará usando las siguientes fórmulas:\\
 
-Para circuitos de corriente alterna monofásica:\\
+Para circuitos de corriente alterna monofásica:\
 
-$$ S=\frac{2\cdot \rho \cdot L_o	\cdot I\cdot cos(\varphi)}{\Delta V}$$
+$$ S=\frac{2\cdot \rho \cdot L_o	\cdot I\cdot cos(\varphi)}{\Delta V}$$\
 
-Para circuitos de corriente alterna trifásica:\\
+Para circuitos de corriente alterna trifásica:\
 
-$$ S=\frac{\sqrt{3} \cdot \rho \cdot L_o \cdot I\cdot cos(\varphi)}{\Delta V}$$
+$$ S=\frac{\sqrt{3} \cdot \rho \cdot L_o \cdot I\cdot cos(\varphi)}{\Delta V}$$\
 
-Siendo $\Delta V$ la caída de tensión en voltios, $cos(\varphi)$ el factor de potencia activa, $L$ la longitud del cable en metros y $\rho$ la resistividad del conductor en $\Omega mm^2$
+Siendo $\Delta V$ la caída de tensión en voltios, $cos(\varphi)$ el factor de potencia activa, $L_o$ la longitud del cable en metros y $\rho$ la resistividad del conductor en $\Omega mm^2$\\
 
 
-{\bfseries Criterio de Intensidad máxima admisible}
+\underline{\bfseries Criterio de Intensidad máxima admisible:}\
 
-Las Intensidades Máximas Admisibles de los conductores se regirán en su totalidad por lo indicado en la norma UNE 20460-5-523.
+Las Intensidades Máximas Admisibles de los conductores se regirán en su totalidad por lo indicado en la norma UNE 20460-5-523.\\
 
-{\bfseries Criterio de Intensidad de cortocircuito}
+\underline{\bfseries Criterio de Intensidad de cortocircuito:}\
 
-Se regirán en su totalidad por lo indicado en la ITC-BT 17. Se toma el defecto fase-neutro como el más desfavorable y se considera despreciable la reactancia inductiva de los conductores. La resistencia de los conductores para el cálculo será a 20 ºC 
+Se regirán en su totalidad por lo indicado en la ITC-BT 17. Se toma el defecto fase-neutro como el más desfavorable y se considera despreciable la reactancia inductiva de los conductores. La resistencia de los conductores para el cálculo será a 20 ºC\\
+\pagebreak
 
 Las instalación eléctrica de la oficina, al tratarse de un lugar de pública concurrencia y local de trabajo deberá cumplir las condiciones establecidas en la ITC-BT-28: \\
 
@@ -176,35 +184,64 @@ Las canalizaciones serán de tubo corrugado para el montaje empotrado. Estos tip
 
 Los conductores de la instalación deben ser fácilmente identificados, especialmente por lo que respecta a los conductores neutro y de protección. Esta identificación se realizará por los colores que presenten sus aislamientos. Cuando exista conductor neutro en la instalación o se prevea para un conductor de fase su pase posterior a conductor neutro, se identificarán éstos por el color azul claro. Al conductor de protección se le identificará por el doble color amarillo-verde. Todos los conductores de fase, o en su caso, aquellos para los que no se prevea su pase posterior a neutro, se identificarán por los colores marrón o negro. Solamente cuando se considere necesario identificar tres fases diferentes, podrá utilizarse el color gris.\\
 
-En la ejecución de las instalaciones interiores de las viviendas se deberá tener en cuenta:
-No se utilizará un mismo conductor neutro para varios circuitos. Todo conductor debe poder seccionarse en cualquier punto de la instalación en el que se realice una derivación del mismo, utilizando un dispositivo apropiado, tal como un borne de conexión, de forma que permita la separación completa de cada parte del circuito del resto de la instalación.\\
+No se utilizará un mismo conductor neutro para varios circuitos. Todo conductor debe poder seccionarse en cualquier punto de la instalación en el que se realice una derivación del mismo, utilizando un dispositivo apropiado, tal como un borne de conexión, de forma que permita la separación completa de cada parte del circuito del resto de la instalación. En ningún caso se permitirá la unión de conductores mediante conexiones y o derivaciones por simple retorcimiento o arrollamiento entre sí de los conductores, sino que deberá realizarse siempre utilizando bornes de conexión montados individualmente o constituyendo bloques o regletas de conexión. Siempre deberán realizarse en el interior de cajas de empalme y / o derivación (Según ITC-BT 19).\\
 
-En ningún caso se permitirá la unión de conductores mediante conexiones y o derivaciones por simple retorcimiento o arrollamiento entre sí de los conductores, sino que deberá realizarse siempre utilizando bornes de conexión montados individualmente o constituyendo bloques o regletas de conexión. Siempre deberán realizarse en el interior de cajas de empalme y / o derivación (Según ITC-BT 19).\\
+La distribución de los circuitos así como las secciones de los conductores a instalar aparecen reflejados en el apartado [PLANOS] del presente proyecto. Los cálculos de las secciones de los conductores vendrán justificados en el apartado [CALCULOS]\pagebreak
 
-Los materiales seleccionados para los circuitos de la zona de oficinas serán:
 
-Tomas de Corriente C2a (Schuko): BJC Serie Iris (Blanco) o superior.
 
-Mecanismos (Interruptores): BJC Serie Iris sin difusor (Blanco) o superior.
 
-Iluminación incandescente: Lámparas halógenas Phillips Fugato o superiores.
 
-Iuminación fluorescente: Luminarias fluorescentes Phillips M2-BD45 o equivalentes.
+{\bfseries Cálculos luminotécnicos:}
 
-La distribución de los circuitos así como las secciones de los conductores a instalar aparecen reflejados en el apartado [PLANOS] del presente proyecto. Los cálculos de las secciones de los conductores vendrán justificados en el apartado [CALCULOS]
+Siguiendo la guía de buenas prácticas del Ministerio de Empleo y Seguridad Social NTP 211: Iluminación de los centros de trabajo, se
+
+La distribución 
+
+
+
+
+
+
+
+\underline{\bfseries Elementos de la instalación eléctrica de la oficina:}\\
+
+
+{\bfseries Tomas de corriente en los puestos de trabajo con sistema de canales salvacables de PVC Quintela:}
+
+La instalación eléctrica que alimentará las tomas de corriente de los puestos de trabajo se instalarán bajo canales salvacables Quintela. Los mecanismos de las tomas de corriente se instalarán en torretas metálicas TTM/4 para cuatro mecanismos, una torreta por puesto.\\
+
+{\bfseries Sistema de alimentación ininterrumpida (SAI) Tecnosai Amplon RT5K:}
+
+Sistema de alimentación ininterrumpida destinado a la alimentación de los equipos informáticos por medio del circuito de Tomas SAI desde el Cuadro Oficina. Su potencia nominal será de 5kVA para una salida monofásica de 230V.\\ 
+
+Al tratarse de un SAI tipo offline, al producirse un fallo en el suministro de tensión se producirá una conmutación en un tiempo inferior a 10ms, conectando la alimentación a las baterías. El conexionado de la conmutación se instalará en el Cuadro Oficina como se indica el diagrama correspondiente en el [APARTADO PLANOS ]\\
+
+La unidad SAI Tecnosat Amplon RT5K y el pack de baterías se ubicarán en un armario rack de tipo mural de 19'' con 18U en sala de control de la segunda planta de la zona de oficinas. Las baterías se distribuirán en dos bandejas extraibles en la parte inferior del armario, quedando instalada la unidad SAI (2U) en la parte superior del mismo. El armario rack deberá disponer de ranuras de ventilación natural.\\
+
+
+
+{\bfseries El resto de elementos seleccionados para los circuitos de la zona de oficinas, al no ser necesaria una descripción detallada de sus características y montaje, vendrán eflejados en el [APARTADO PRESPUESTO].}
 
 \subsubsection{Instalación elécrtica de la zona de fabricación y almacén}
 
-Las canalizaciones serán de tubo de PVC curvable en caliente para lo que se instale superficialmente, admitiéndose tubo corrugado para el montaje empotrado. Estos tipos de tubos seran antiinflamables y por tanto, no propagadores de la llama.
-Los ángulos de curvatura no seran en ningún momento inferiores a 90 grados, a fin de permitir el acceso a los conductores.
-Para determinar el diámetro de los tubos a emplear en función de los mismos que ha de alojar, se han de emplear las tablas de la Instrucción ITC-BT-21.
+Las disposiciones establecidas para la instalación eléctrica de la zona de fabricación y almacén serán las mismas que las indicadas en el apartado anterior, teniendo en cuenta las siguientes particularidades:\\
+
+Desde el Cuadro General de Mando y Protección discurrirán dos canalizaciones generales hasta el Cuadro Fábrica. Una de ellas albergará los conductores de alimentación de los diferentes circuitos de potencia y la otra los buses de comunicaciones entre el PC industrial y la sala de control. La canalización de los conductores de potencia será una Bandeja perforada Unex 60x200 en U23X y la de los buses de comunicación una Bandeja lisa Unex 60x75 en U23X. Estas se colocarán a una altura aproximada de 3 metros con respecto del nivel del suelo, discurriendo por la pared como viene especificado en el apartado [APARTADP PLANOS]\\
+
+De la bandeja perforada que albergará los conductores de potencia nacerán las derivaciones a los circuitos, estas serán de tubo de acero galvanizado de montaje superficial si la instalación es superficial en pared y bajo salvacables [TAL] para las tomas que sean de aplicación en un punto de la planta de la zona de fabricación. Las tomas de corriente de uso genera se instalarán en la superficie de la pared una altura de 30cm. En el resto de puntos de alimentación se instalarán tomas hembra IEC 60309, dejando un exceso de cable de 1m en cada punto, como se especifica en el [APARTADO PLANOS]
 
 
 
-
-altura de las luminarias, tomas de maquinas, bandejas
+altura de las luminarias,
 
 altura d elas tomas mecanismos tubos de aluminio
+
+tomas de toros
+
+tomas de máquinas
+
+
 
 
 
