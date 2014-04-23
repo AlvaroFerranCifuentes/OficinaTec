@@ -495,18 +495,49 @@ tomas de máquinas
 
 	\includegraphics[scale=0.4]{Datasheets/10Foto.jpg}
 
-	eagle NET-26C 
+		Tarjeta de adquisición de datos Eagle Technologies NET-26C. Se encarga de realizar la función de puente entre la maquinaria utilizada y el ordenador industrial. Se conecta por cable de red RJ-45 a todas las máquinas, que traen un puerto para el mismo, y recibe información de los diversos sensores. Una vez recibida se la retransmite al ordenador mediante otro cable igual para que tome las decisiones necesarias. Finalmente retransmite a los actuadores de las máquinas la órdenes del PC para continuar con el proceso de manera óptima.\\
+
+		Tiene 16 canales de entrada analógicos y digitales, con una resolución de 16 bits en modo analógico y una frecuencia de refresco de 250kHz. Posee su propia fuente de alimentación de 9V DC y es compatible con los sistemas operativos Windows Vista, Windows 2000, Windows XP y Linux.\\
+
 		\begin{itemize}
 				\item{Conexionado mecánico:}\\
 				
+				Se fijará a la pared con seis tornillos simples de 50mm de longitud y 6mm de ancho o superior.
+
 				\item{Conexionado eléctrico:}\\
-				
+
+				Se conectará la fuente de alimentación de 9V DC mediante un cable de alimentación simple a un enchufe de 220V AC a 50Hz
+ 				
 				\item{Señal:}\\
 				
+				Se conecta al PC industrial Siemens mediante un cable de red RJ-45.
+
 		\end{itemize}
 
 \newpage
 
+	\subsubsection{PC industrial Siemens}
+
+	\includegraphics[scale=0.4]{Datasheets/12Foto.png}
+
+	PC industrial de Siemens SIMATIC IPC547E encargado de controlar todo el proceso de fabricación, gestionando la información recibida por la tarjeta de adquisición sobre los sensores de las diferentes máquinas en tiempo real y proporcionando instrucciones a los diferentes actuadores en consecuencia. Tiene un sistema operativo Linux Debian 6 que cumple con el estándar POSIX.\\
+
+		\begin{itemize}
+				\item{Conexionado mecánico:}\\
+				
+				Se introducirá en el armario destinado a tal efecto en la oficina, cerrándose la puerta para evitar manipulaciones no autorizadas y riesgos de golpes.
+
+				\item{Conexionado eléctrico:}\\
+				
+				Se conecta a un enchufe de 220V AC a 50Hz
+
+				\item{Señal:}\\
+				
+				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.\\
+				Se puede controlar y monitorizar desde los ordenadores de la oficina.
+		\end{itemize}
+
+\newpage
 	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
@@ -615,4 +646,10 @@ Fdo. David Antón Sánchez
 \subsubsection{Tarjeta de aquisición de datos}
 \hspace*{0cm}
 \includegraphics[scale=0.63]{Datasheets/10Tarjeta.png}
+\newpage
+\subsubsection{PC industrial Siemens}
+\hspace*{0cm}
+\includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/12Foto.png} 
+\\
+\includegraphics[scale=0.63]{Datasheets/12PC.png}
 \newpage

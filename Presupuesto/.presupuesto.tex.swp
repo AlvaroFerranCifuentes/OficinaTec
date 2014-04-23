@@ -1,7 +1,0 @@
-
-%\section{Presupuesto detallado}
-%\vspace*{3cm}
-%\hspace*{-2cm}
-\includepdf[pages=-, scale=1]{Presupuesto/presupuesto.pdf}
-
-\includepdf[pages=-, scale=1]{Presupuesto/presupuestoResumen.pdf}
