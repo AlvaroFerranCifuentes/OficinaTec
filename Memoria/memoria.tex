@@ -188,21 +188,19 @@ No se utilizará un mismo conductor neutro para varios circuitos. Todo conductor
 
 La distribución de los circuitos así como las secciones de los conductores a instalar aparecen reflejados en el apartado [PLANOS] del presente proyecto. Los cálculos de las secciones de los conductores vendrán justificados en el apartado [CALCULOS]\pagebreak
 
+\underline{\bfseries Cálculos luminotécnicos:}
 
+Siguiendo la guía de buenas prácticas del Ministerio de Empleo y Seguridad Social NTP 211: Iluminación de los centros de trabajo, se tendrán en cuenta las disposiciones mínimas de iluminación en cada zona dependiendo del trabajo que se va a realizar. Según el Artículo 28 de la O.G.S.H.T. se garantizarán como mínimo:
 
+\begin{itemize}
 
+\item 300 lux para la zona de oficinas 
 
-{\bfseries Cálculos luminotécnicos:}
+\item 50 lux para la zona de fabricación y almacén
 
-Siguiendo la guía de buenas prácticas del Ministerio de Empleo y Seguridad Social NTP 211: Iluminación de los centros de trabajo, se
+\end{itemize}
 
-La distribución 
-
-
-
-
-
-
+El estudio luminotécnico que justifica el número de luminarias instaladas, su número y distribución se puede consultar en el apartado [ANEXO ESTUDIO LUMINOTECNICO]\\
 
 \underline{\bfseries Elementos de la instalación eléctrica de la oficina:}\\
 
@@ -229,20 +227,11 @@ Las disposiciones establecidas para la instalación eléctrica de la zona de fab
 
 Desde el Cuadro General de Mando y Protección discurrirán dos canalizaciones generales hasta el Cuadro Fábrica. Una de ellas albergará los conductores de alimentación de los diferentes circuitos de potencia y la otra los buses de comunicaciones entre el PC industrial y la sala de control. La canalización de los conductores de potencia será una Bandeja perforada Unex 60x200 en U23X y la de los buses de comunicación una Bandeja lisa Unex 60x75 en U23X. Estas se colocarán a una altura aproximada de 3 metros con respecto del nivel del suelo, discurriendo por la pared como viene especificado en el apartado [APARTADP PLANOS]\\
 
-De la bandeja perforada que albergará los conductores de potencia nacerán las derivaciones a los circuitos, estas serán de tubo de acero galvanizado de montaje superficial si la instalación es superficial en pared y bajo salvacables [TAL] para las tomas que sean de aplicación en un punto de la planta de la zona de fabricación. Las tomas de corriente de uso genera se instalarán en la superficie de la pared una altura de 30cm. En el resto de puntos de alimentación se instalarán tomas hembra IEC 60309, dejando un exceso de cable de 1m en cada punto, como se especifica en el [APARTADO PLANOS]
+De la bandeja perforada que albergará los conductores de potencia nacerán las derivaciones a los circuitos, estas serán de tubo de acero galvanizado de montaje superficial si la instalación es superficial en pared y bajo salvacables [TAL] para las tomas que sean de aplicación en un punto de la planta de la zona de fabricación. Se instalará un salvacables independiente para guiar los cables de datos de los sensores y DeviceBus desde las máquinas hasta el PC industrial en la zona de fabricación. Las tomas de corriente de uso genera se instalarán en la superficie de la pared una altura de 30cm. En el resto de puntos de alimentación se instalarán tomas hembra IEC 60309, dejando un exceso de cable de 1m en cada punto, como se especifica en el [APARTADO PLANOS].\\
 
+Las luminarias de la zona de fabricación y almacén se colocarán suspendidas del techo con cable de acero de 8mm de diámetro. Para alimentarlas se instalará una bandeja Bandeja perforada Unex 60x200 en U23X por la pared desde el Cuadro General de Mando y Protección hasta una altura de 10 metros, desde donde discurrirá a lo largo de la nave. Ssuspendida por dos cables de acero en cables de acero cada [AMPLIAR]
 
-
-altura de las luminarias,
-
-altura d elas tomas mecanismos tubos de aluminio
-
-tomas de toros
-
-tomas de máquinas
-
-
-
+[AMPLIAR] Las luminarias y sus canalizaciones, ampliar, altura de las luminarias,etc
 
 \newpage
 
@@ -255,7 +244,7 @@ tomas de máquinas
 
 	Por su interior circula una cinta transportadora de 150mm de ancho a una velocidad de entre 30 y 200mm por minuto, siendo regulable según las necesidades de producción.\\
 
-	Tiene unas dimensiones de 7720mm de largo, 1200mm de ancho y 1350mm de altura máxima. La altura de túnel es de 80mm y está compuesto por una mezcla de gases N2 y H2. Tiene una uniformidad de temperatura de +-2 grados centigrados a lo largo de todo el horno para garantizar un secado regular y correcto.\\
+	Tiene unas dimensiones de 7720mm de largo, 1200mm de ancho y 1350mm de altura máxima. La altura de túnel es de 80mm y está compuesto por una mezcla de gases $N_2$ y $H_2$. Tiene una uniformidad de temperatura de $\pm$2 $\degree C$ a lo largo de todo el horno para garantizar un secado regular y correcto.\\
 
 	Pesa 1100kg y tiene un panel de control para monitorizar y actuar sobre los procesos directamente, si fuera necesario tomar el control manual.
 
@@ -266,11 +255,11 @@ tomas de máquinas
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \
 				
-				\item{Señal:}
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de adquisición de datos NET-26C mediante un cable de red RJ-45.
 				
 		\end{itemize}
 
@@ -278,27 +267,27 @@ tomas de máquinas
 
 	\subsubsection{Máquina de compresión en tabletas}
 
-	\includegraphics[scale=1]{Datasheets/2MaquinaPrensadoFoto.png}
+	\includegraphics[scale=1]{Datasheets/2MaquinaPrensadoFoto.png}\\
 
 	Máquina industrial de formación de comprimidos YUJ-17B2. Transforma polvo seco en pastillas de diámetro de entre 3mm y 12mm y de cualquier forma para la que se introduzca el correspondiente molde.\\
 
 	Es capaz de ejercer una presión máxima de 100kN, con una fase de pre-presionado a 16kN. Es capaz de procesar entre 5 y 50 kilogramos de pastillas por hora. \\
 
-	Tiene unas dimensiones de 2820mm de largo, 1530mm de ancho y 1540mm de alto. Pesa 500kg y tiene una potencia de motor de 4kW. Se conecta a una red de 380V a 50Hz.\\
+	Tiene unas dimensiones de 2820mm de largo, 1530mm de ancho y 1540mm de alto. Pesa 500kg y tiene una potencia de motor de 4kW, .\\
 
 	Lleva incorporado un controlador PLC de alta velocidad así como una interfaz de usuario para operación manual en caso de necesidad. La totalidad de la máquina está realizada con acero inoxidable. 
 
 
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
 				Se fijará al suelo con 4 pies de máquina antivibración y de nivelación de 80mm de diámetro.
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
-				
-				\item{Señal:}
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \
+								
+				\item{Comunicación de datos:}
 
 				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
 		\end{itemize}
@@ -307,29 +296,29 @@ tomas de máquinas
 
 	\subsubsection{Máquina de verificación de dureza de tabletas}
 
-	\includegraphics[scale=0.6]{Datasheets/3Foto.png}
+	\includegraphics[scale=0.6]{Datasheets/3Foto.png}\\
 		
-	Máquina industrial de inpección de pastillas YJX-220B. Integra diferentes tecnologías para cumplir con los requerimientos del sector farmacéutico. Puede comprobrar la dureza de tabletas y encapsulados, sean estos duros o blandos.\\
+	Máquina industrial de inspección de pastillas YJX-220B. Integra diferentes tecnologías para cumplir con los requerimientos del sector farmacéutico. Puede comprobar la dureza de tabletas y encapsulados, sean estos duros o blandos.\\
 
-	Los productos entran en el feeder a través de un embudo y son limpiados por un flujo de aire a presión que elimina restos de polvo. Después son colocados en fila para comprobar que resisten un umbral de presión. También se puede regular para comprobar periódicamente que se pueden deshacer por debajo de un umbral máximo de presión, lo cual indica que las pastillas no se desharán durante el transporte pero podrán ser digeridas por los usuarios.\\
+	Los productos entran en el feeder a través de un embudo y son limpiados por un flujo de aire a presión que elimina restos de polvo. Después son colocados en fila para comprobar que resisten un umbral de presión. También se puede regular para comprobar periódicamente que se pueden deshacer por debajo de un umbral máximo de presión, lo cual indica que las pastillas no se desharán durante el transporte pero podrán ser digeridas por los consumidores.\\
 
 
-	Es capaz de testear hasta 120 000 capsulas por hora, o aproximadamente 50kg de pastillas dependiendo de la forma, tamaño y peso de las mismas.\\
+	Es capaz de testear hasta 120 000 cápsulas por hora, o aproximadamente 50kg de pastillas dependiendo de la forma, tamaño y peso de las mismas.\\
 
 
 
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
 				Se fijará al suelo con 6 pies de máquina antivibración y de nivelación de 80mm de diámetro.
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \
 				
-				\item{Señal:}
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de adquisición de datos NET-26C mediante un cable de red RJ-45.
 		\end{itemize}
 
 	\newpage
@@ -337,7 +326,7 @@ tomas de máquinas
 
 	\subsubsection{Máquina de revestimiento de tabletas}
 		
-	\includegraphics[scale=0.5]{Datasheets/4Foto.png}
+	\includegraphics[scale=0.5]{Datasheets/4Foto.png}\\
 	
 	Máquina industrial de revestimiento de tabletas BGB80. Su función es revestir las pastillas de una capa de agentes específicos para darles un color, sabor o textura específicos, así como endurecer la parte exterior de la misma para evitar que se deshaga hasta su uso.\\
 
@@ -352,39 +341,38 @@ tomas de máquinas
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \
 				
-				\item{Señal:}
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de adquisición de datos NET-26C mediante un cable de red RJ-45.
 		\end{itemize}
 
     \newpage
 
 	\subsubsection{Máquina de sellado de blisters }
 
-	\includegraphics[scale=0.5]{Datasheets/5Foto.png}
+	\includegraphics[scale=0.5]{Datasheets/5Foto.png}\\
 
 	Máquina industrial de formación y sellado de blisters DPK-260H2. Su función es agrupar y encapsular las pastillas en láminas de plástico con cubierta de aluminio para facilitar su organización, distribución y almacenamiento, así como evitar que entren en contacto con agentes contaminantes hasta el momento de su uso.\\
 
-	Las pastillas entran por una cinta a un acumulador. Una vez lleno este las deja caer a una matriz para colocarlas en posición. A la vez un cabezal móvil caliente funde el plástico en los lugares especificados para crear los receptáculos donde se colocan las pastillas. Tras ser depositadas una lámina de aluminio con el nombre y demás detalles ya impresos cubre el conjunto y se aplica calor para pegarlo al plastico. Finalmente se corta en tiras del tamaño deseado para su posterior empaquetado.\\
-
+	Las pastillas entran por una cinta a un acumulador. Una vez lleno este las deja caer a una matriz para colocarlas en posición. A la vez un cabezal móvil caliente funde el plástico en los lugares especificados para crear los receptáculos donde se colocan las pastillas. Tras ser depositadas una lámina de aluminio con los detalles identificativos correspondientes ya impresos cubre el conjunto y se aplica calor para pegarlo al plastico. Finalmente se corta en tiras del tamaño deseado para su posterior empaquetado.\\
 
 	Tiene una capacidad de procesado de hasta 140 000 pastillas por hora, y una frecuencia de corte de entre 25 y 60 veces por minuto. La profundidad máxima de los receptáculos es de 22mm, utilizando una lámina de plástico de entre 0.25mm y0.5mm de grosor. La lámina de aluminio tiene un grosor de entre 0.02mm y0.035mm.
 
 
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
 				Se fijará al suelo con 10 pies de máquina antivibración y de nivelación de 80mm de diámetro.
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \
 				
-				\item{Señal:}
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de adquisición de datos NET-26C mediante un cable de red RJ-45.
 		\end{itemize}
 	
 	\newpage
@@ -396,29 +384,29 @@ tomas de máquinas
 
 	Máquina industrial de empaquetado HTZ200. Su función es formar cajas a partir de los cartones ya impresos introducidos en la máquina e introducir los paquetes de pastillas en los mismos. También debe plegar los folletos de instrucciones e insertarlos en las cajas antes de cerrarlas. \\
 
-	La máquina coge los cartones que carga el operario y los dobla formando la caja diseñada. Acto seguido coge una hoja de folleto y la pliega, introduciéndola en la caja para finalmente insertar el blister y cerrar todo.\\
+	La máquina agarral los cartones que carga el operario y los dobla formando la caja diseñada. Acto seguido agarra una hoja de folleto y la pliega, introduciéndola en la caja para finalmente insertar el blister y cerrar la caja.\\
 
 	Tiene una capacidad de empaquetado de 100 a 200 cajas por minuto, pudiendo formar cajas con dimensiones de 55mm a 180mm de largo por 35mm a 85mm de ancho por 14mm a 60mm de alto.
 
 
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
 				Se fijará al suelo con 6 pies de máquina antivibración y de nivelación de 80mm de diámetro.
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \
 				
-				\item{Señal:}
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de adquisición de datos NET-26C mediante un cable de red RJ-45.
 		\end{itemize}
 
 \newpage
 
 
-	\subsubsection{Cintas de transporte}
+	\subsubsection{Cintas transportadoras}
 
 	\includegraphics[scale=0.5]{Datasheets/11Foto.png}
 	\\
@@ -430,85 +418,105 @@ tomas de máquinas
 	Todas las cintas son aptas para transporte de componentes destinados a consumo humano. 
 
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
 				Se fijarán al suelo con los suficientes pies de máquina antivibración y de nivelación de diámetro suficientes para cada cinta, de forma que quede fija y no vibre durante su normal funcionamiento y teniendo en cuenta las diferentes longitudes y pesos de cada una.
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
+				e conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \ 
 				
-				\item{Señal:}
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de adquisición de datos NET-26C mediante un cable de red RJ-45.
 		\end{itemize}
 
 
 \newpage
 
-\subsubsection{Robot pick and place}
+\subsubsection{Robot de paletizado}
 
 	\includegraphics[scale=0.3]{Datasheets/8Foto.jpg}
 	
-	ABB IRB 260
+	Para las tareas de paletizado de las cajas del producto a la salida de la línea de producción se instalará un robot ABB IRB 260 especializado en tareas de picking, con un controlador ABB IRC5, con módulo de entradas y salidas digitales. La comunicación con el PC industrial la realizará a través de un bus de datos DeviceNet. La programación del robot se realizó con el sotware ABB RobotStudio 5.12. El código fuente se encuentra en el [ANEXO QUE SEA]\\
+	
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
-				Se fijará al suelo con 6 pies de máquina antivibración y de nivelación de 80mm de diámetro.
+				Se fijará al suelo con 3 pies de máquina antivibración y de nivelación de 80mm de diámetro.
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
-				
-				\item{Señal:}
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \	
+							
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de interfaz DeviceNet CAN-AC1-PCI/DN mediante un cable DeviceBus de Clase 2 18 AWG trenzado.
 		\end{itemize}
-
-
-
-
 \newpage
 
-	\subsubsection{Robot de paletizado}
+	\subsubsection{Robot de posicionamiento de palets}
 
 	\includegraphics[scale=0.4]{Datasheets/9Foto.jpg}
 	
-	ABB IRB 4400
+	Para las tareas de posicionamiento de los palets vacíos en la zona de paletizado se instalará un robot ABB IRB 4400, con capacidad de carga de 20kg, con un controlador ABB IRC5, con módulo de entradas y salidas digitales. La comunicación con el PC industrial la realizará a través de un bus de datos DeviceNet. La programación del robot se realizó con el sotware ABB RobotStudio 5.12. El código fuente se encuentra en el [ANEXO QUE SEA]\\
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
-				Se fijará al suelo con 6 pies de máquina antivibración y de nivelación de 80mm de diámetro.
+				Se fijará al suelo con 3 pies de máquina antivibración y de nivelación de 80mm de diámetro.
 
 				\item{Conexionado eléctrico:}
 
-				Se conectará a la toma de corriente mediante un cable de grosor suficiente para el amperaje consumido por la máquina. Éste tiene en su extremo una clavija de cinco pines, incluyendo tres pines de fase, un pin de neutro y un pin de conexión a tierra.  
-				
-				\item{Señal:}
+				Se conectará al punto de alimentación de la máquina mediante una  toma macho IEC 60309. En el caso de que la máquina venga desprovista de el cable de alimentación, se conectará al bornero un cable multipolar con las mismas características que el cable de alimentación al punto de alimentación de máquina como se especifica en el el [APARTADO PLANOS], dejando un exceso de cable de 1m. \	
+							
+				\item{Comunicación de datos:}
 
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.
+				Se conecta a la tarjeta de interfaz DeviceNet CAN-AC1-PCI/DN mediante un cable DeviceBus de Clase 2 18 AWG trenzado.
+		\end{itemize}
+\newpage
+
+	\subsubsection{Tarjeta interfaz DeviceNet}
+
+	\includegraphics[width=1\textwidth]{Datasheets/10aFoto.jpg}
+
+		Tarjeta interfaz DeviceNet CAN-AC1-PCI/DN con microcontrolador para procesado de datos embebido. Su función es gestionar la comunicación entre el PC industrial y el controlador de los robots ABB. Se conectará a ambos mediante un cable DeviceBus de Clase 2 18 AWG trenzado mediante una instalación bajo bandeja salvacables. Interfaz PCI universal, compatible con el protocolo CAN V2.0 (11/29 Bit IDs), para el conexionado del cableado posee un bornero de 5 pines y es  compatible con los sistemas operativos Windows Vista, Windows 2000, Windows XP y Linux.\\
+
+		\begin{itemize}
+				\item{Conexionado mecánico:}
+				
+				Se insertará en la bahía PCI del PC industrial y se fijará mediante tornillos estándar.
+
+				\item{Conexionado eléctrico:}
+
+				El PC industrial proporcionará la alimentación necesaria para su funcionamiento a través del puerto PCI.
+ 				
+				\item{Comunicación de datos:}
+				
+				Se conectará a ambos robots ABB mediante un cable DeviceBus de Clase 2 18 AWG trenzado mediante una instalación bajo bandeja salvacables.
+
 		\end{itemize}
 
 \newpage
 
-	\subsubsection{Tarjeta de adquisición de datos}
 
-	\includegraphics[scale=0.4]{Datasheets/10Foto.jpg}
+	\subsubsection{Tarjeta de adquisición de datos}\\
 
-		Tarjeta de adquisición de datos Eagle Technologies NET-26C. Se encarga de realizar la función de puente entre la maquinaria utilizada y el ordenador industrial. Se conecta por cable de red RJ-45 a todas las máquinas, que traen un puerto para el mismo, y recibe información de los diversos sensores. Una vez recibida se la retransmite al ordenador mediante otro cable igual para que tome las decisiones necesarias. Finalmente retransmite a los actuadores de las máquinas la órdenes del PC para continuar con el proceso de manera óptima.\\
+	\includegraphics[width=0.6\textwidth]{Datasheets/10Foto.jpg}\\
+
+		Tarjeta de adquisición de datos Eagle Technologies NET-26C. Se encarga de realizar la función de puente entre la maquinaria utilizada y el ordenador industrial. Se conecta mediante cable de red RJ-45 a todas las máquinas, que poseen un puerto para el mismo, recibiendo información de los diversos sensores y gestionando la activación de los actuadores de las máquinas.\\
 
 		Tiene 16 canales de entrada analógicos y digitales, con una resolución de 16 bits en modo analógico y una frecuencia de refresco de 250kHz. Posee su propia fuente de alimentación de 9V DC y es compatible con los sistemas operativos Windows Vista, Windows 2000, Windows XP y Linux.\\
 
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
-				Se fijará a la pared con seis tornillos simples de 50mm de longitud y 6mm de ancho o superior.
+				Se fijará a la pared con seis tornillos simples de 50mm de longitud y 6mm de diámetro o superiores.
 
-				\item{Conexionado eléctrico:}\\
+				\item{Conexionado eléctrico:}
 
-				Se conectará la fuente de alimentación de 9V DC mediante un cable de alimentación simple a un enchufe de 220V AC a 50Hz
- 				
-				\item{Señal:}\\
+				Se conectará la fuente de alimentación de 9V DC mediante un cable de alimentación simple a una toma de corriente de uso general.
+				 				
+				\item{Comunicación de datos:}
 				
 				Se conecta al PC industrial Siemens mediante un cable de red RJ-45.
 
@@ -516,25 +524,24 @@ tomas de máquinas
 
 \newpage
 
-	\subsubsection{PC industrial Siemens}
+	\subsubsection{PC industrial Siemens}\\
 
-	\includegraphics[scale=0.4]{Datasheets/12Foto.png}
+	\includegraphics[scale=0.4]{Datasheets/12Foto.png}\\
 
-	PC industrial de Siemens SIMATIC IPC547E encargado de controlar todo el proceso de fabricación, gestionando la información recibida por la tarjeta de adquisición sobre los sensores de las diferentes máquinas en tiempo real y proporcionando instrucciones a los diferentes actuadores en consecuencia. Tiene un sistema operativo Linux Debian 6 que cumple con el estándar POSIX.\\
+	PC industrial de Siemens SIMATIC IPC547E encargado de controlar todo el proceso de fabricación, gestionando la información recibida por la tarjeta de adquisición sobre los sensores de las diferentes máquinas en tiempo real y proporcionando instrucciones a los diferentes actuadores. Posee un sistema operativo Linux Debian 6 que cumple con el estándar POSIX. Se podrá controlar y monitorizar desde los ordenadores de la sala de control.\\
 
 		\begin{itemize}
-				\item{Conexionado mecánico:}\\
+				\item{Conexionado mecánico:}
 				
-				Se introducirá en el armario destinado a tal efecto en la oficina, cerrándose la puerta para evitar manipulaciones no autorizadas y riesgos de golpes.
+				Se introducirá en el armario rack destinado a tal efecto en la oficina, cerrándose la puerta para evitar manipulaciones no autorizadas y riesgos de golpes.
 
-				\item{Conexionado eléctrico:}\\
+				\item{Conexionado eléctrico:}
 				
-				Se conecta a un enchufe de 220V AC a 50Hz
+				La alimentación se realizará mediante toma de corriente del circuito de SAI.
 
-				\item{Señal:}\\
+				\item{Comunicación de datos:}
 				
-				Se conecta a la tarjeta de acquisición de datos NET-26C mediante un cable de red RJ-45.\\
-				Se puede controlar y monitorizar desde los ordenadores de la oficina.
+				Se conecta a la tarjeta de adquisición de datos NET-26C mediante un cable de red RJ-45.
 		\end{itemize}
 
 \newpage
@@ -543,12 +550,22 @@ tomas de máquinas
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 \section{Sistema propuesto}
 
+\subsection{Instalación eléctrica}
 
-Cuando el horno emita una señal de aviso un operario procederá a llenar el depósito de dicho horno con la materia prima. Una vez lleno, el horno libera el polvo uniformemente sobre una cinta transportadora recubierta por un material lavable y desinfectable, adecuada para entrar en contacto con componenentes destinados a consumo humano. \\
-Esta lo transporta por el horno a una velocidad de entre 30 y 200mm por minuto, dependiendo del tamaño de las pastillas, y por tanto de la cantidad de polvo. El horno lleva una mezcla de gases N2 y H2 a una temperatura recomendada de unos 1050ºC para eliminar cualquier tipo de humedad. Se pueden regular la temperatura del horno, la velocidad de la cinta interna y la cantidad de polvo que se dispersa, dependiendo todo de la producción. Lleva también una interfaz para operarios que puede controlar todo, en caso de que fuera necesario tomar el control manual.
+Se realizará la instalación eléctrica de la zona de oficina, compuesta por la iluminación, las tomas de corriente de uso general y tomas de corriente SAI. En la zona de fabricación y almacén se electrificarán cada uno de las máquinas que participan en la producción, así como las luminarias y las tomas de corriente de uso general. Se procederá al cálculo de los conductores, protecciones y receptores acorde a las disposiciones mínimas exigidas por las autoridades competentes y los requisitos de cada parte de la instalación, realizándose los cálculos necesarios para justificar las protecciones, calibre de los cables que alimentan a los receptores y requisitos mínimos de flujo luminoso en cada parte de la instalación. 
+
+\subsection{Instalación de maquinaria y automatización y control del proceso de fabricación}
+
+Se realizará la instalación de la maquinaria y automatización y control del proceso de fabricación acorde a las necesidades del proceso productivo. Cada máquina posee una serie de sensores y receptores que se conectarán a través de un bus de datos  a un PC industrial mediante una tarjeta de adquisición de datos. Los robots que paletizan el producto al final de la línea de producción usarán un protocolo de comunicación DeviceNet y se conectarán al PC industrial mediante una tarjeta interfaz DeviceNet. La programación del proceso productivo se realizará a través de un software específico teniendo en cuenta las especificaciones que se desean para el producto.
+
+\subsection{Proceso de fabricación}
+
+El proceso de fabricación de los comprimidos seguirá la siguiente secuencia: \\
+
+Se proporcionará alimentación a todas las máquinas de forma manual y secuencial en el cuadro de fábrica accionando los interruptores automáticos correspondientes. Una vez comprobado que todas las máquinas están alimentadas se procederá a iniciar el sistema de control por PC industrial, que realizará una comprobación previa de todos los sistemas. El proceso comenzará precalentando el horno a la temperatura adecuada, una señal de aviso visual y acústica avisará al operario de que el horno está listo para recibir la materia prima y procederá a llenar el depósito con la cantidad adecuada. Una vez lleno, el horno liberará el polvo uniformemente sobre una cinta transportadora que lo lo transporta por el horno a una velocidad de entre 30 y 200mm por minuto, en función del tamaño de las pastillas a fabricar. El horno lleva una mezcla de gases $N_2$ y $H_2$ a una temperatura de unos 1050ºC para eliminar cualquier tipo de humedad. Se pueden regular la temperatura del horno, la velocidad de la cinta interna y la cantidad de polvo que se dispersa, dependiendo de las especificaciones del producto. En caso de que el proceso requiera de algún tipo de modificación manual, el operario podrá pasar de modo automático a modo manual en el panel de la máquina.
 \\
 
-A la salida del horno el polvo es introducido en una máquina de compresión, donde es convertido en pastillas y se le imprime el nombre de la pastilla si fuera de aplicación. El tamaño y forma de las pastillas se deberá especificar e insertar el molde correspondiente, siendo de entre 3 y 12mm de diámetro las mismas. \\  
+A la salida del horno, el polvo es introducido en una máquina de compresión, donde es convertido en pastillas y se le imprime el nombre de la pastilla si fuera de aplicación. El tamaño y forma de las pastillas se deberá especificar e insertar el molde correspondiente, siendo de entre 3 y 12mm de diámetro las mismas. \\  
 
 Acto seguido pasa por una máquina de comprobación. Esta primero limpia las pastillas con un flujo de aire a presión que elimina el polvo suelto que quede de la operación anterior. Tras ser colocadas en fila la máquina comprueba una a una todas las pastillas para verificar que ninguna se rompe por debajo de un umbral mínimo que garantice la integridad de la misma durante el transporte. También verificia periódicamente que ninguna pastilla escogida aleatoriamente se rompa por encima de un umbral máximo, lo que la podría hacer peligrosa para el consumo. Las pastillas desechadas se trituran y depositan en un recipiente para que el operario lo reintroduzca en el horno en la siguiente iteración y así minimizar el desperdicio de materia prima. \\
 
@@ -561,7 +578,7 @@ En esta máquina se dejan caer pastillas por una cinta hasta llenar un depósito
 Finalmente se transportan los blisters sellados por otra cinta transportadora a la máquina de empaquetado. Esta coge las cartulinas de las cajas que previamente ha cargado un operario, y las dobla para darles su forma final. Inmediatamente después coge una hoja de folleto y lo pliega hasta darle su forma característica. Finalmente introduce el folleto explicativo y las unidades de blisters que correspondan en la caja y la cierra. Las cajas con el produto final se dejan caer por una rampa hasta una mesa donde un brazo robótico ABB IRB 260 equipado con una cámara coge las cajas individuales y las coloca en cajas de lotes en un palé para ser recogido por un operario y almacenado en una estantería. Un segundo brazo robótico ABB 4400 coje un palé de una pila de palés vacíos y lo coloca en la posición del anterior para el siguiente ciclo.
 \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Flujograma}
+\subsection{Flujograma del proceso de fabrcación}
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Planos/Flujograma.png}
 
 
@@ -580,24 +597,14 @@ Fdo. David Antón Sánchez
 \subsection{Anexo de cálculos:}
 
 \subsubsection{Cálculos de la Instalación eléctrica}
-\paragraph{Diseño del cuadro general de protección y mando}
-\paragraph{Cálculo de las líneas de alimentación de cada máquina}
-\paragraph{Cálculo de las líneas para las tomas de corriente de uso general}
-\paragraph{Cálculo de las líneas para las tomas de corriente con SAI}
-\paragraph{Cálculo de las líneas para iluminación}
-\paragraph{Cálculo de las líneas para iluminación de emergencia}
-
-\subsubsection{Cálculo de las instalaciones de automatización}
-\paragraph{Sensores }
-\paragraph{Cuadro centralización de automatización}
-\paragraph{Rack con PC industrial conectado a la red de la fábrica}
-\subsubsection{Instalaciones de seguridad}
-\paragraph{Protección de las personas}
-\paragraph{Protección contra intrusión}
+\paragraph{Cálculo de conductores y protecciones}
+\paragraph{Estudio luminotécnico}
 
 \newpage
 \subsection{Anexo de código}
+\textbf{Programación en RAPID del sistema de paletizado con robots ABB}
 \textbf{Código detección de cajas en C++ utilizando OpenCV con algoritmo SURF}
+
 \\
 
 \lstinputlisting{Memoria/codigo.cpp}
@@ -632,17 +639,33 @@ Fdo. David Antón Sánchez
 \subsubsection{Máquina de empaquetado}
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/7MaquinaEmpaquetado.png} 
 \newpage
-\subsubsection{Cintas de transporte}
+\subsubsection{Cintas transportadora}
 \includegraphics[height=22cm,keepaspectratio]{Datasheets/11Cinta.png} 
 \newpage
-\subsubsection{Robot pick and place}
+\subsubsection{Robot paletizado}
 \hspace*{-2cm}
 \includegraphics[page=2]{Datasheets/IRB-260.pdf}
 \newpage
-\subsubsection{Robot de paletizado}
+\subsubsection{Robot de posicionamiento de palets}
 \hspace*{-2cm}
 \includegraphics[page=2]{Datasheets/IRB-4400.pdf}
 \newpage
+
+\subsubsection{Controlador ABB IRC5}
+\hspace*{-2cm}
+\includegraphics[page=2]{Datasheets/IRC5 datasheet PR10258 EN_R13.pdf}
+\newpage
+
+\subsubsection{Tarjeta interfaz DeviceNet}
+\hspace*{-2cm}
+\includegraphics[page=2]{Datasheets/CAN012E2_201204_CAN-AC1_PCI_DN.pdf}
+\newpage
+
+\subsubsection{Cables DeviceBus}
+\includegraphics[width=1\textwidth]{Datasheets/DeviceBus.png}
+\newpage
+
+
 \subsubsection{Tarjeta de aquisición de datos}
 \hspace*{0cm}
 \includegraphics[scale=0.63]{Datasheets/10Tarjeta.png}
