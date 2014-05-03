@@ -51,189 +51,22 @@ alimenticios.\\
 En caso de producirse alguna diferencia de criterio entre una normativa y otra debe permanecer la de rango superior, siempre y cuando la de rango inferior no fuese más perceptiva.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Descripción general}
-
-La nave industrial se divide de dos áreas diferenciadas: un zona de oficinas de dos plantas con una superficie útil por planta de 175$m^2$ y la zona industrial con una superficie útil de 1260$m^2$, siendo la superficie total 1610${m^2}$. La zona industrial se divide en tres zonas: zona de carga y descarga, zona de almacenamiento de materia prima, zona de almacenamiento del producto y zona de fabricación. La zona de oficinas consta de una recepción, una zona de oficina por planta, zona de personal de fábrica y vestuarios, centro de control y una zona de aseos por planta.
-\\
-
-Los camiones entrarían marcha atrás en la nave y los empleados procederían a descargar su contenido con la ayuda de carretillas elevadoras. Los palets con los sacos con la materia prima en polvo, así como los de los cartones para ensamblar las cajas se almacenarían en estanterías de palets situadas en la zona de almacenamiento de materia prima. 
-\\
-
-En la zona de fabricación se llevará a cabo todo el proceso de transformación del polvo a pastillas envasadas en cajas. Se situarán un horno de secado, una máquina de compresión, una máquina de verificación, un tambor de revestimiento, una máquina de formación de blisters y una última de embalaje, así como cintas para transportar los distintos elementos y dos brazos robóticos para paletizar el producto final. Estos palets se almacenan en estanterías cerca de la puerta en la zona de almacenamiento de producto.\\
-
 \pagebreak
 
-Las máquinas de la zona de fabricación disponen de una serie de sensores y actuadores que serán controlados por PC Industrial a través de una tarjeta de adquisición de datos. Se realizará tanto la instalación física de las máquinas, su electrificación y control, como la instalación eléctrica de la zona de oficinas y zona industrial. Todos los detalles y características de los elementos y procesos se encuentran detallados en las siguientes secciones del presente documento.
+\section{Descripción general}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\section{Elementos del sistema}
+\subsection{Instalación de maquinaria y automatización y control del proceso de fabricación}
+
+Se realizará la instalación de la maquinaria y automatización y control del proceso de fabricación acorde a las necesidades del proceso productivo. Cada máquina posee una serie de sensores y receptores que se conectarán a través de un bus de datos  a un PC industrial mediante una tarjeta de adquisición de datos. Los robots que paletizan el producto al final de la línea de producción usarán un protocolo de comunicación DeviceNet y se conectarán al PC industrial mediante una tarjeta interfaz de la misma tecnología. La programación del proceso productivo se realizará a través de un software específico teniendo en cuenta las especificaciones que se desean para el producto.
 
 \subsection{Instalación eléctrica}
 
-\subsubsection{Red de suministro}
-
-La empresa encargada de suministrar energía eléctrica a la instalación será:\\
-UNIÓN FENOSA, S.A.\\
-
-Características de la red de suministro:\
-
-\begin{itemize}
-\item {\bfseries Red:} Corriente Alterna Trifásica 
-\item {\bfseries Tensión:} 400/230V (Entre fases y entre fase y neutro)
-\item {\bfseries Frecuencia:} 50 Hz
-\item {\bfseries Intensidad de cortocircuito trifásico:} 12 kA
-\end{itemize}
-
-El suministro se realizará a través de {\bfseries Acometida Subterránea con conductores unipolares de aluminio RV 0,6/1kV 3x240+1x150 Al} instalados bajo tubo enterrado, llegando a una CGP de instalación empotrada. La instalación será existente, siendo sólo objeto de este proyecto la instalación aguas abajo a partir del Cuadro General de Mando y Protección cuya envolvente se ajusta a las normas UNE 20.451 y UNE-EN 60.439 -3, con un grado de protección IP 30 según UNE 20.324 e IK07 según UNE-EN 50.102.\\
-
-Para la sección de conductores indicada previamente, teniendo en cuenta sus características de instalación existente y que los fusibles instalados en la CGP son de 350A, se establece una {\bfseries potencia máxima admisible en la instalación de 243kW}
-
-\subsubsection{Previsión de potencia}
-
-La potencia total prevista para la instalación, usada para el cálculo del interruptor automático general se obtendrá, teniendo en cuenta los interruptores automáticos del cuadro general de mando y protección y un factor de corrección por simultaneidad 0,7:
-
-$$P_{total}=\left( \sum \sqrt 3 \cdot I_{automatico\ i}\cdot  {V_{linea}}\right)\cdot 0,7$$\
-
-Se obtiene un valor de {\bfseries potencia total de 222kW}\\
-
-Para el cálculo la previsión de potencia de cada circuito se multiplicará la potencia nominal demandada por cada receptor por el número de receptores a instalar. Para circuito de las cintas transportadoras se aplicará un factor de corrección de 1,5 a la potencia total. Para el resto de receptores el factor de corrección será 1. \\
-
-La previsión de potencia de cada circuito, así como el número de receptores a instalar y su distribución en los cuadros se encuentran detallados en el apartado [PLANOS]. Los cálculos se encuentran detallados en el apartado [CALCULOS]. 
-
-\subsubsection{Cuadro General de Mando y Protección y cuadros secundarios}
-
-La instalación eléctrica partirá del Cuadro General de Mando y Protección y se distribuirá entre dos cuadros secundarios como se detalla en el [ANEXO PLANOS!!]. La envolvente del Cuadro General de Mando y Protección es existente y se reutilizará de la instalación anterior. Las envolventes de los cuadros secundarios serán de [CARACTERíSTICAS], como viene detallado en el apartado [PRESUPUESTO!!]\\
-
-Los dispositivos generales e individuales de mando y protección de serán, como mínimo: un Interruptor general automático de corte omnipolar por cuadro, que permita su accionamiento manual y que esté dotado de elementos de protección contra sobrecarga y cortocircuitos, interruptores automáticos individuales para cada circuito con las mismas características que el interruptor general automático y un interruptor diferencial por cada 5 circuitos como mínimo. La sensibilidad de los interruptores diferenciales responderá a lo señalado en la Instrucción ITC-BT-24. Todas los Interruptores Automáticos Magnetotérmicos serán de corte omnipolar, tipo de curva C y poseerán un poder de corte de 6 kA. Se seleccionarán protecciones con un poder de corte de 6 kA al ser más económicos que los de poder de corte 4,5 kA que se exigen como mínimo por normativa.\\
-
-La elección calibre de las protecciones de los interruptores automáticos individuales vendrá determinada por la potencia máxima demandada por cada receptor y la intensidad máxima admisible por los conductores que lo alimentan, siguiendo el criterio:\
-
-$$ I_{MAX\ demandada\ receptor}\leq I_{AUTOMATICO}\leq I_{MAX\ admisible\ conductores}$$\
-
-La distribución de los cuadros, así como los calibres de las protecciones y los circuitos a los que alimentan se encuentra detallado en el apartado [PLANOS]. Los cálculos de los calibres de los interruptores automáticos vendrán justificados en el apartado [CALCULOS]\\
-
-Los elementos a instalar en el cuadro vienen detallados en el [APARTADO PRESUPUESTO]\
-
-\subsubsection{Instalación eléctrica de la oficina}
-
-Es la parte de la instalación eléctrica que partiendo del cuadro de de la oficina, enlaza con los receptores de iluminación, tomas de corriente de uso general, tomas de corriente de baño y tomas de corriente SAI.\\
-
-Está regulada en las ITC-BT 25 e ITC-BT 26 del R.E.B.T. donde se especifican las prescripciones generales de instalación y calibres de los tubos a utilizar en cada circuito. Los conductores utilizados para estos circuitos serán de cobre unipolares con aislamiento de cobre y una tensión asignada de 450/750V (H07Z1-K) siendo no propagadores del incendio y con emisión de humos y opacidad reducida. La instalación de estos conductores realizará bajo tubo curvable de 2 capas en montaje empotrado en pared de mampostería o bajo falso techo, donde proceda.\\
+Se realizará la instalación eléctrica de la zona de oficina, compuesta por la iluminación, tomas de corriente de uso general y tomas de corriente SAI. En la zona de fabricación y almacén se electrificarán cada uno de las máquinas que participan en el la producción, así como las luminarias y las tomas de corriente de uso general. Se procederá al cálculo de los conductores, protecciones y receptores acorde a las disposiciones mínimas exigidas por las autoridades competentes y los requisitos de cada parte de la instalación, realizándose los cálculos necesarios para justificar las protecciones, calibre de los cables que alimentan a los receptores y requisitos mínimos de flujo luminoso en las zonas de trabajo.
 
 \pagebreak
 
-La elección de las secciones de los conductores vendrá determinada por la potencia máxima demandada por cada receptor y la intensidad máxima admisible por los conductores que lo alimentan, siguiendo siguiendo los siguientes criterios:\\
-
-\underline{\bfseries Criterio de caída de tensión:}\
-
-La caída de tensión sera como máximo del 3\% en los circuitos de alumbrado y un 5\% en el resto de instalaciones. Esta caída de tensión se calculará para una intensidad de funcionamiento del circuito igual a la intensidad nominal del interruptor automático de dicho circuito y para una distancia correspondiente a la del punto de utilización mas alejado del origen de la instalación. El valor de la caída de tensión podrá compensarse entre el de la instalación eléctrica de la oficina y el de la derivación del Cuadro General de Mando y Protección al cuadro de la oficina, de forma que la caída de tensión total sea inferior a la suma de los valores límite especificados para ambas. Se calculará usando las siguientes fórmulas:\\
-
-Para circuitos de corriente alterna monofásica:\
-
-$$ S=\frac{2\cdot \rho \cdot L_o	\cdot I\cdot cos(\varphi)}{\Delta V}$$\
-
-Para circuitos de corriente alterna trifásica:\
-
-$$ S=\frac{\sqrt{3} \cdot \rho \cdot L_o \cdot I\cdot cos(\varphi)}{\Delta V}$$\
-
-Siendo $\Delta V$ la caída de tensión en voltios, $cos(\varphi)$ el factor de potencia activa, $L_o$ la longitud del cable en metros y $\rho$ la resistividad del conductor en $\Omega mm^2$\\
-
-
-\underline{\bfseries Criterio de Intensidad máxima admisible:}\
-
-Las Intensidades Máximas Admisibles de los conductores se regirán en su totalidad por lo indicado en la norma UNE 20460-5-523.\\
-
-\underline{\bfseries Criterio de Intensidad de cortocircuito:}\
-
-Se regirán en su totalidad por lo indicado en la ITC-BT 17. Se toma el defecto fase-neutro como el más desfavorable y se considera despreciable la reactancia inductiva de los conductores. La resistencia de los conductores para el cálculo será a 20 ºC\\
-\pagebreak
-
-Las instalación eléctrica de la oficina, al tratarse de un lugar de pública concurrencia y local de trabajo deberá cumplir las condiciones establecidas en la ITC-BT-28: \\
-
-\begin{itemize}
-\item El cuadro general de distribución deberá colocarse en el punto más próximo posible a la entrada de la acometida o derivación individual y se colocará junto o sobre él, los dispositivos de mando y protección establecidos en la instrucción ITC-BT-17. Cuando no sea posible la instalación del cuadro general en este punto, se instalará en dicho punto un dispositivo de mando y protección.\\
-
-\item Del citado cuadro general saldrán las líneas que alimentan directamente los aparatos receptores o bien las líneas generales de distribución a las que se conectará mediante cajas o a través de cuadros secundarios de distribución los distintos circuitos alimentadores. Los aparatos receptores que consuman más de 16 amperios se alimentarán directamente desde el cuadro general o desde los secundarios.
-
-\item El cuadro general de distribución e, igualmente, los cuadros secundarios, se instalarán en locales lugares o recintos a los que no tenga acceso el público y que estarán separados de los locales donde exista un peligro acusado de incendio o de pánico (cabinas de proyección, escenarios, salas de público, escaparates, etc.), por medio de elementos a prueba de incendios y puertas no propagadoras del fuego. Los contadores podrán instalarse en otro lugar, de acuerdo con la empresa distribuidora de energía eléctrica, y siempre antes del cuadro general.
-
-\item En el cuadro general de distribución o en los secundarios se dispondrán dispositivos de mando y protección contra sobreintensidades, cortocircuitos y contactos indirectos para cada una de las líneas generales de distribución, y las de alimentación directa a receptores. Cerca de cada uno de los interruptores del cuadro se colocará una placa indicadora del circuito al que pertenecen.
-
-\item En las instalaciones para alumbrado de locales o dependencias donde se reúna público, el número de líneas secundarias y su disposición en relación con el total de lámparas lámparas a alimentar, deberá ser tal que el corte de corriente en una cualquiera de ellas no afecte a más de la tercera parte del total de lámparas lámparas instaladas en los locales o dependencias que se iluminan alimentadas por dichas líneas. Cada una de estas líneas estarán protegidas en su origen contra sobrecargas, cortocircuitos, y si procede contra contactos indirectos.
-
-\end{itemize}
-
-Las canalizaciones serán de tubo corrugado para el montaje empotrado. Estos tipos de tubos serán antiinflamables y por tanto, no propagadores de la llama. Los angulos de curvatura no serán en ningún momento inferiores a 90, con el fin de permitir el acceso a los conductores. Las canalizaciones deben realizarse según lo dispuesto en las ITC-BT-19 e ITC-BT-20 y estaran constituidas por:
-
-\begin{itemize}
-\item Conductores aislados, de tensión nominal no inferior a 450/750 V, colocados bajo tubos o canales protectores, preferentemente empotrados en especial en las zonas accesibles al público.
-
-\item Conductores aislados, de tensión nominal no inferior a 450/750 V, con cubierta de protección, colocados en huecos de la construcción, totalmente construidos en materiales incombustibles de grado de resistencia al fuego incendio RF-120, como mínimo.
-
-\item Los cables y sistemas de conducción de cables deben instalarse de manera que no se reduzcan las características de la estructura del edificio en la seguridad contra incendios.
-
-\item Los cables eléctricos a utilizar en las instalaciones de tipo general y en el conexionado interior de cuadros eléctricos en este tipo de locales, tendrán propiedades especiales frente al fuego, siendo no propagadores del incendio y con emisión de humos y opacidad reducida. Los cables con características equivalentes a la norma UNE 21.123, partes 4 ó 5, o a la norma UNE 211002 (según la tensión asignada del cable) cumplen con esta prescripción.
-
-\item Los cables eléctricos a utilizar en las instalaciones de tipo general y en el conexionado interior de cuadros eléctricos en este tipo de locales, serán no propagadores del incendio y con emisión de humos y opacidad reducida. Los cables con características equivalentes a las de la norma UNE 21.123 parte 4 ó 5; o a la norma UNE 211002 (según la tensión asignada del cable), cumplen con esta prescripción.
-
-\item Los elementos de conducción de cables con características equivalentes a los clasificados como "no propagadores de la llama" de acuerdo con las normas UNE-EN 50085-1 y UNE-EN 50086-1, cumplen con esta prescripción.
-
-\item Los cables eléctricos destinados a circuitos de servicios de seguridad no autónomos o a circuitos de servicios con fuentes autónomas centralizadas, deben mantener el servicio durante y después del incendio, siendo conformes a las especificaciones de la norma UNE-EN 50.200 y tendrán emisión de humos y gases tóxicos muy opacidad reducida. Los cables con características equivalentes a la norma UNE 21.123, apartado 3.4.6, cumplen con esta prescripción de emisión de humos y opacidad reducida.
-
-\end{itemize}
-
-Los conductores de la instalación deben ser fácilmente identificados, especialmente por lo que respecta a los conductores neutro y de protección. Esta identificación se realizará por los colores que presenten sus aislamientos. Cuando exista conductor neutro en la instalación o se prevea para un conductor de fase su pase posterior a conductor neutro, se identificarán éstos por el color azul claro. Al conductor de protección se le identificará por el doble color amarillo-verde. Todos los conductores de fase, o en su caso, aquellos para los que no se prevea su pase posterior a neutro, se identificarán por los colores marrón o negro. Solamente cuando se considere necesario identificar tres fases diferentes, podrá utilizarse el color gris.\\
-
-No se utilizará un mismo conductor neutro para varios circuitos. Todo conductor debe poder seccionarse en cualquier punto de la instalación en el que se realice una derivación del mismo, utilizando un dispositivo apropiado, tal como un borne de conexión, de forma que permita la separación completa de cada parte del circuito del resto de la instalación. En ningún caso se permitirá la unión de conductores mediante conexiones y o derivaciones por simple retorcimiento o arrollamiento entre sí de los conductores, sino que deberá realizarse siempre utilizando bornes de conexión montados individualmente o constituyendo bloques o regletas de conexión. Siempre deberán realizarse en el interior de cajas de empalme y / o derivación (Según ITC-BT 19).\\
-
-La distribución de los circuitos así como las secciones de los conductores a instalar aparecen reflejados en el apartado [PLANOS] del presente proyecto. Los cálculos de las secciones de los conductores vendrán justificados en el apartado [CALCULOS]\pagebreak
-
-\underline{\bfseries Cálculos luminotécnicos:}
-
-Siguiendo la guía de buenas prácticas del Ministerio de Empleo y Seguridad Social NTP 211: Iluminación de los centros de trabajo, se tendrán en cuenta las disposiciones mínimas de iluminación en cada zona dependiendo del trabajo que se va a realizar. Según el Artículo 28 de la O.G.S.H.T. se garantizarán como mínimo:
-
-\begin{itemize}
-
-\item 300 lux para la zona de oficinas 
-
-\item 50 lux para la zona de fabricación y almacén
-
-\end{itemize}
-
-El estudio luminotécnico que justifica el número de luminarias instaladas, su número y distribución se puede consultar en el apartado [ANEXO ESTUDIO LUMINOTECNICO]\\
-
-\underline{\bfseries Elementos de la instalación eléctrica de la oficina:}\\
-
-
-{\bfseries Tomas de corriente en los puestos de trabajo con sistema de canales salvacables de PVC Quintela:}
-
-La instalación eléctrica que alimentará las tomas de corriente de los puestos de trabajo se instalarán bajo canales salvacables Quintela. Los mecanismos de las tomas de corriente se instalarán en torretas metálicas TTM/4 para cuatro mecanismos, una torreta por puesto.\\
-
-{\bfseries Sistema de alimentación ininterrumpida (SAI) Tecnosai Amplon RT5K:}
-
-Sistema de alimentación ininterrumpida destinado a la alimentación de los equipos informáticos por medio del circuito de Tomas SAI desde el Cuadro Oficina. Su potencia nominal será de 5kVA para una salida monofásica de 230V.\\ 
-
-Al tratarse de un SAI tipo offline, al producirse un fallo en el suministro de tensión se producirá una conmutación en un tiempo inferior a 10ms, conectando la alimentación a las baterías. El conexionado de la conmutación se instalará en el Cuadro Oficina como se indica el diagrama correspondiente en el [APARTADO PLANOS ]\\
-
-La unidad SAI Tecnosat Amplon RT5K y el pack de baterías se ubicarán en un armario rack de tipo mural de 19'' con 18U en sala de control de la segunda planta de la zona de oficinas. Las baterías se distribuirán en dos bandejas extraibles en la parte inferior del armario, quedando instalada la unidad SAI (2U) en la parte superior del mismo. El armario rack deberá disponer de ranuras de ventilación natural.\\
-
-
-
-{\bfseries El resto de elementos seleccionados para los circuitos de la zona de oficinas, al no ser necesaria una descripción detallada de sus características y montaje, vendrán eflejados en el [APARTADO PRESPUESTO].}
-
-\subsubsection{Instalación elécrtica de la zona de fabricación y almacén}
-
-Las disposiciones establecidas para la instalación eléctrica de la zona de fabricación y almacén serán las mismas que las indicadas en el apartado anterior, teniendo en cuenta las siguientes particularidades:\\
-
-Desde el Cuadro General de Mando y Protección discurrirán dos canalizaciones generales hasta el Cuadro Fábrica. Una de ellas albergará los conductores de alimentación de los diferentes circuitos de potencia y la otra los buses de comunicaciones entre el PC industrial y la sala de control. La canalización de los conductores de potencia será una Bandeja perforada Unex 60x200 en U23X y la de los buses de comunicación una Bandeja lisa Unex 60x75 en U23X. Estas se colocarán a una altura aproximada de 3 metros con respecto del nivel del suelo, discurriendo por la pared como viene especificado en el apartado [APARTADP PLANOS]\\
-
-De la bandeja perforada que albergará los conductores de potencia nacerán las derivaciones a los circuitos, estas serán de tubo de acero galvanizado de montaje superficial si la instalación es superficial en pared y bajo salvacables [TAL] para las tomas que sean de aplicación en un punto de la planta de la zona de fabricación. Se instalará un salvacables independiente para guiar los cables de datos de los sensores y DeviceBus desde las máquinas hasta el PC industrial en la zona de fabricación. Las tomas de corriente de uso genera se instalarán en la superficie de la pared una altura de 30cm. En el resto de puntos de alimentación se instalarán tomas hembra IEC 60309, dejando un exceso de cable de 1m en cada punto, como se especifica en el [APARTADO PLANOS].\\
-
-Las luminarias de la zona de fabricación y almacén se colocarán suspendidas del techo con cable de acero de 8mm de diámetro. Para alimentarlas se instalará una bandeja Bandeja perforada Unex 60x200 en U23X por la pared desde el Cuadro General de Mando y Protección hasta una altura de 10 metros, desde donde discurrirá a lo largo de la nave. Ssuspendida por dos cables de acero en cables de acero cada [AMPLIAR]
-
-[AMPLIAR] Las luminarias y sus canalizaciones, ampliar, altura de las luminarias,etc
-
-\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\section{Elementos del sistema}
 
 \subsection{Maquinaria}
 	\subsubsection{Máquina de secado de polvo}
@@ -546,17 +379,188 @@ Las luminarias de la zona de fabricación y almacén se colocarán suspendidas d
 
 \newpage
 	
+\subsection{Instalación eléctrica}
+
+\subsubsection{Red de suministro}
+
+La empresa encargada de suministrar energía eléctrica a la instalación será:\\
+UNIÓN FENOSA, S.A.\\
+
+Características de la red de suministro:\
+
+\begin{itemize}
+\item {\bfseries Red:} Corriente Alterna Trifásica 
+\item {\bfseries Tensión:} 400/230V (Entre fases y entre fase y neutro)
+\item {\bfseries Frecuencia:} 50 Hz
+\item {\bfseries Intensidad de cortocircuito trifásico:} 12 kA
+\end{itemize}
+
+La instalación de suministro será existente. Se realizará a través de {\bfseries Acometida Subterránea con conductores unipolares de aluminio RV 0,6/1kV 3x240+1x150 Al} instalados bajo tubo enterrado, llegando a una CGP de instalación empotrada. , siendo sólo objeto de este proyecto la instalación aguas abajo a partir del Cuadro General de Mando y Protección cuya envolvente se ajusta a las normas UNE 20.451 y UNE-EN 60.439 -3, con un grado de protección IP 30 según UNE 20.324 e IK07 según UNE-EN 50.102.\\
+
+Para la sección de conductores indicada previamente, teniendo en cuenta sus características y que los fusibles instalados en la CGP son de 350A, se establece una {\bfseries potencia máxima admisible en la instalación de 243kW}
+
+\subsubsection{Previsión de potencia}
+
+La potencia total prevista para la instalación, usada para el cálculo del interruptor automático general se obtendrá, teniendo en cuenta los interruptores automáticos del cuadro general de mando y protección y un factor de corrección por simultaneidad 0,7:
+
+$$P_{total}=\left( \sum \sqrt 3 \cdot I_{automatico\ i}\cdot  {V_{linea}}\right)\cdot 0,7$$\
+
+Se obtiene un valor de {\bfseries potencia total de 222kW}\\
+
+Para el cálculo la previsión de potencia de cada circuito se multiplicará la potencia nominal demandada por cada receptor por el número de receptores a instalar. Para circuito de las cintas transportadoras se aplicará un factor de corrección de 1,5 a la potencia total. Para el resto de receptores el factor de corrección será 1. \\
+
+La previsión de potencia de cada circuito, así como el número de receptores a instalar y su distribución en los cuadros se encuentran detallados en el apartado [PLANOS]. Los cálculos se encuentran detallados en el apartado [CALCULOS]. 
+
+\subsubsection{Cuadro General de Mando y Protección y cuadros secundarios}
+
+La instalación eléctrica partirá del Cuadro General de Mando y Protección y se distribuirá entre dos cuadros secundarios como se detalla en el [ANEXO PLANOS!!]. La envolvente del Cuadro General de Mando y Protección es existente y se reutilizará de la instalación anterior. Las envolventes de los cuadros secundarios serán de [CARACTERíSTICAS], como viene detallado en el apartado [PRESUPUESTO!!]\\
+
+Los dispositivos generales e individuales de mando y protección de serán, como mínimo: un Interruptor general automático de corte omnipolar por cuadro, que permita su accionamiento manual y que esté dotado de elementos de protección contra sobrecarga y cortocircuitos, interruptores automáticos individuales para cada circuito con las mismas características que el interruptor general automático y un interruptor diferencial por cada 5 circuitos como mínimo. La sensibilidad de los interruptores diferenciales responderá a lo señalado en la Instrucción ITC-BT-24. Todas los Interruptores Automáticos Magnetotérmicos serán de corte omnipolar, tipo de curva C y poseerán un poder de corte de 6 kA. Se seleccionarán protecciones con un poder de corte de 6 kA al ser más económicos que los de poder de corte 4,5 kA que se exigen como mínimo por normativa.\\
+
+La elección calibre de las protecciones de los interruptores automáticos individuales vendrá determinada por la potencia máxima demandada por cada receptor y la intensidad máxima admisible por los conductores que lo alimentan, siguiendo el criterio:\
+
+$$ I_{MAX\ demandada\ receptor}\leq I_{AUTOMATICO}\leq I_{MAX\ admisible\ conductores}$$\
+
+La distribución de los cuadros, así como los calibres de las protecciones y los circuitos a los que alimentan se encuentra detallado en el apartado [PLANOS]. Los cálculos de los calibres de los interruptores automáticos vendrán justificados en el apartado [CALCULOS]\\
+
+Los elementos a instalar en el cuadro vienen detallados en el [APARTADO PRESUPUESTO]\
+
+\subsubsection{Instalación eléctrica de la oficina}
+
+Es la parte de la instalación eléctrica que partiendo del cuadro de de la oficina, enlaza con los receptores de iluminación, tomas de corriente de uso general, tomas de corriente de baño y tomas de corriente SAI.\\
+
+Está regulada en las ITC-BT 25 e ITC-BT 26 del R.E.B.T. donde se especifican las prescripciones generales de instalación y calibres de los tubos a utilizar en cada circuito. Los conductores utilizados para estos circuitos serán de cobre unipolares con aislamiento de cobre y una tensión asignada de 450/750V (H07Z1-K) siendo no propagadores del incendio y con emisión de humos y opacidad reducida. La instalación de estos conductores realizará bajo tubo curvable de 2 capas en montaje empotrado en pared de mampostería o bajo falso techo, donde proceda.\\
+
+\pagebreak
+
+La elección de las secciones de los conductores vendrá determinada por la potencia máxima demandada por cada receptor y la intensidad máxima admisible por los conductores que lo alimentan, siguiendo siguiendo los siguientes criterios:\\
+
+\underline{\bfseries Criterio de caída de tensión:}\
+
+La caída de tensión sera como máximo del 3\% en los circuitos de alumbrado y un 5\% en el resto de instalaciones. Esta caída de tensión se calculará para una intensidad de funcionamiento del circuito igual a la intensidad nominal del interruptor automático de dicho circuito y para una distancia correspondiente a la del punto de utilización mas alejado del origen de la instalación. El valor de la caída de tensión podrá compensarse entre el de la instalación eléctrica de la oficina y el de la derivación del Cuadro General de Mando y Protección al cuadro de la oficina, de forma que la caída de tensión total sea inferior a la suma de los valores límite especificados para ambas. Se calculará usando las siguientes fórmulas:\\
+
+Para circuitos de corriente alterna monofásica:\
+
+$$ S=\frac{2\cdot \rho \cdot L_o	\cdot I\cdot cos(\varphi)}{\Delta V}$$\
+
+Para circuitos de corriente alterna trifásica:\
+
+$$ S=\frac{\sqrt{3} \cdot \rho \cdot L_o \cdot I\cdot cos(\varphi)}{\Delta V}$$\
+
+Siendo $\Delta V$ la caída de tensión en voltios, $cos(\varphi)$ el factor de potencia activa, $L_o$ la longitud del cable en metros y $\rho$ la resistividad del conductor en $\Omega mm^2$\\
+
+
+\underline{\bfseries Criterio de Intensidad máxima admisible:}\
+
+Las Intensidades Máximas Admisibles de los conductores se regirán en su totalidad por lo indicado en la norma UNE 20460-5-523.\\
+
+\underline{\bfseries Criterio de Intensidad de cortocircuito:}\
+
+Se regirán en su totalidad por lo indicado en la ITC-BT 17. Se toma el defecto fase-neutro como el más desfavorable y se considera despreciable la reactancia inductiva de los conductores. La resistencia de los conductores para el cálculo será a 20 ºC\\
+\pagebreak
+
+Las instalación eléctrica de la oficina, al tratarse de un lugar de pública concurrencia y local de trabajo deberá cumplir las condiciones establecidas en la ITC-BT-28: \\
+
+\begin{itemize}
+\item El cuadro general de distribución deberá colocarse en el punto más próximo posible a la entrada de la acometida o derivación individual y se colocará junto o sobre él, los dispositivos de mando y protección establecidos en la instrucción ITC-BT-17. Cuando no sea posible la instalación del cuadro general en este punto, se instalará en dicho punto un dispositivo de mando y protección.\\
+
+\item Del citado cuadro general saldrán las líneas que alimentan directamente los aparatos receptores o bien las líneas generales de distribución a las que se conectará mediante cajas o a través de cuadros secundarios de distribución los distintos circuitos alimentadores. Los aparatos receptores que consuman más de 16 amperios se alimentarán directamente desde el cuadro general o desde los secundarios.
+
+\item El cuadro general de distribución e, igualmente, los cuadros secundarios, se instalarán en locales lugares o recintos a los que no tenga acceso el público y que estarán separados de los locales donde exista un peligro acusado de incendio o de pánico (cabinas de proyección, escenarios, salas de público, escaparates, etc.), por medio de elementos a prueba de incendios y puertas no propagadoras del fuego. Los contadores podrán instalarse en otro lugar, de acuerdo con la empresa distribuidora de energía eléctrica, y siempre antes del cuadro general.
+
+\item En el cuadro general de distribución o en los secundarios se dispondrán dispositivos de mando y protección contra sobreintensidades, cortocircuitos y contactos indirectos para cada una de las líneas generales de distribución, y las de alimentación directa a receptores. Cerca de cada uno de los interruptores del cuadro se colocará una placa indicadora del circuito al que pertenecen.
+
+\item En las instalaciones para alumbrado de locales o dependencias donde se reúna público, el número de líneas secundarias y su disposición en relación con el total de lámparas lámparas a alimentar, deberá ser tal que el corte de corriente en una cualquiera de ellas no afecte a más de la tercera parte del total de lámparas lámparas instaladas en los locales o dependencias que se iluminan alimentadas por dichas líneas. Cada una de estas líneas estarán protegidas en su origen contra sobrecargas, cortocircuitos, y si procede contra contactos indirectos.
+
+\end{itemize}
+
+Las canalizaciones serán de tubo corrugado para el montaje empotrado. Estos tipos de tubos serán antiinflamables y por tanto, no propagadores de la llama. Los angulos de curvatura no serán en ningún momento inferiores a 90, con el fin de permitir el acceso a los conductores. Las canalizaciones deben realizarse según lo dispuesto en las ITC-BT-19 e ITC-BT-20 y estaran constituidas por:
+
+\begin{itemize}
+\item Conductores aislados, de tensión nominal no inferior a 450/750 V, colocados bajo tubos o canales protectores, preferentemente empotrados en especial en las zonas accesibles al público.
+
+\item Conductores aislados, de tensión nominal no inferior a 450/750 V, con cubierta de protección, colocados en huecos de la construcción, totalmente construidos en materiales incombustibles de grado de resistencia al fuego incendio RF-120, como mínimo.
+
+\item Los cables y sistemas de conducción de cables deben instalarse de manera que no se reduzcan las características de la estructura del edificio en la seguridad contra incendios.
+
+\item Los cables eléctricos a utilizar en las instalaciones de tipo general y en el conexionado interior de cuadros eléctricos en este tipo de locales, tendrán propiedades especiales frente al fuego, siendo no propagadores del incendio y con emisión de humos y opacidad reducida. Los cables con características equivalentes a la norma UNE 21.123, partes 4 ó 5, o a la norma UNE 211002 (según la tensión asignada del cable) cumplen con esta prescripción.
+
+\item Los cables eléctricos a utilizar en las instalaciones de tipo general y en el conexionado interior de cuadros eléctricos en este tipo de locales, serán no propagadores del incendio y con emisión de humos y opacidad reducida. Los cables con características equivalentes a las de la norma UNE 21.123 parte 4 ó 5; o a la norma UNE 211002 (según la tensión asignada del cable), cumplen con esta prescripción.
+
+\item Los elementos de conducción de cables con características equivalentes a los clasificados como "no propagadores de la llama" de acuerdo con las normas UNE-EN 50085-1 y UNE-EN 50086-1, cumplen con esta prescripción.
+
+\item Los cables eléctricos destinados a circuitos de servicios de seguridad no autónomos o a circuitos de servicios con fuentes autónomas centralizadas, deben mantener el servicio durante y después del incendio, siendo conformes a las especificaciones de la norma UNE-EN 50.200 y tendrán emisión de humos y gases tóxicos muy opacidad reducida. Los cables con características equivalentes a la norma UNE 21.123, apartado 3.4.6, cumplen con esta prescripción de emisión de humos y opacidad reducida.
+
+\end{itemize}
+
+Los conductores de la instalación deben ser fácilmente identificados, especialmente por lo que respecta a los conductores neutro y de protección. Esta identificación se realizará por los colores que presenten sus aislamientos. Cuando exista conductor neutro en la instalación o se prevea para un conductor de fase su pase posterior a conductor neutro, se identificarán éstos por el color azul claro. Al conductor de protección se le identificará por el doble color amarillo-verde. Todos los conductores de fase, o en su caso, aquellos para los que no se prevea su pase posterior a neutro, se identificarán por los colores marrón o negro. Solamente cuando se considere necesario identificar tres fases diferentes, podrá utilizarse el color gris.\\
+
+No se utilizará un mismo conductor neutro para varios circuitos. Todo conductor debe poder seccionarse en cualquier punto de la instalación en el que se realice una derivación del mismo, utilizando un dispositivo apropiado, tal como un borne de conexión, de forma que permita la separación completa de cada parte del circuito del resto de la instalación. En ningún caso se permitirá la unión de conductores mediante conexiones y o derivaciones por simple retorcimiento o arrollamiento entre sí de los conductores, sino que deberá realizarse siempre utilizando bornes de conexión montados individualmente o constituyendo bloques o regletas de conexión. Siempre deberán realizarse en el interior de cajas de empalme y / o derivación (Según ITC-BT 19).\\
+
+La distribución de los circuitos así como las secciones de los conductores a instalar aparecen reflejados en el apartado [PLANOS] del presente proyecto. Los cálculos de las secciones de los conductores vendrán justificados en el apartado [CALCULOS]\pagebreak
+
+\underline{\bfseries Cálculos luminotécnicos:}
+
+Siguiendo la guía de buenas prácticas del Ministerio de Empleo y Seguridad Social NTP 211: Iluminación de los centros de trabajo, se tendrán en cuenta las disposiciones mínimas de iluminación en cada zona dependiendo del trabajo que se va a realizar. Según el Artículo 28 de la O.G.S.H.T. se garantizarán como mínimo:
+
+\begin{itemize}
+
+\item 300 lux para la zona de oficinas 
+
+\item 50 lux para la zona de fabricación y almacén
+
+\end{itemize}
+
+El estudio luminotécnico que justifica el número de luminarias instaladas, su número y distribución se puede consultar en el apartado [ANEXO ESTUDIO LUMINOTECNICO]\\
+
+\underline{\bfseries Elementos de la instalación eléctrica de la oficina:}\\
+
+
+{\bfseries Tomas de corriente en los puestos de trabajo con sistema de canales salvacables de PVC Quintela:}
+
+La instalación eléctrica que alimentará las tomas de corriente de los puestos de trabajo se instalarán bajo canales salvacables Quintela. Los mecanismos de las tomas de corriente se instalarán en torretas metálicas TTM/4 para cuatro mecanismos, una torreta por puesto.\\
+
+{\bfseries Sistema de alimentación ininterrumpida (SAI) Tecnosai Amplon RT5K:}
+
+Sistema de alimentación ininterrumpida destinado a la alimentación de los equipos informáticos por medio del circuito de Tomas SAI desde el Cuadro Oficina. Su potencia nominal será de 5kVA para una salida monofásica de 230V.\\ 
+
+Al tratarse de un SAI tipo offline, al producirse un fallo en el suministro de tensión se producirá una conmutación en un tiempo inferior a 10ms, conectando la alimentación a las baterías. El conexionado de la conmutación se instalará en el Cuadro Oficina como se indica el diagrama correspondiente en el [APARTADO PLANOS ]\\
+
+La unidad SAI Tecnosat Amplon RT5K y el pack de baterías se ubicarán en un armario rack de tipo mural de 19'' con 18U en sala de control de la segunda planta de la zona de oficinas. Las baterías se distribuirán en dos bandejas extraibles en la parte inferior del armario, quedando instalada la unidad SAI (2U) en la parte superior del mismo. El armario rack deberá disponer de ranuras de ventilación natural.\\
+
+
+
+{\bfseries El resto de elementos seleccionados para los circuitos de la zona de oficinas, al no ser necesaria una descripción detallada de sus características y montaje, vendrán eflejados en el [APARTADO PRESPUESTO].}
+
+\subsubsection{Instalación elécrtica de la zona de fabricación y almacén}
+
+Las disposiciones establecidas para la instalación eléctrica de la zona de fabricación y almacén serán las mismas que las indicadas en el apartado anterior, teniendo en cuenta las siguientes particularidades:\\
+
+Desde el Cuadro General de Mando y Protección discurrirán dos canalizaciones generales hasta el Cuadro Fábrica. Una de ellas albergará los conductores de alimentación de los diferentes circuitos de potencia y la otra los buses de comunicaciones entre el PC industrial y la sala de control. La canalización de los conductores de potencia será una Bandeja perforada Unex 60x200 en U23X y la de los buses de comunicación una Bandeja lisa Unex 60x75 en U23X. Estas se colocarán a una altura aproximada de 3 metros con respecto del nivel del suelo, discurriendo por la pared como viene especificado en el apartado [APARTADP PLANOS]\\
+
+De la bandeja perforada que albergará los conductores de potencia nacerán las derivaciones a los circuitos, estas serán de tubo de acero galvanizado de montaje superficial si la instalación es superficial en pared y bajo salvacables [TAL] para las tomas que sean de aplicación en un punto de la planta de la zona de fabricación. Se instalará un salvacables independiente para guiar los cables de datos de los sensores y DeviceBus desde las máquinas hasta el PC industrial en la zona de fabricación. Las tomas de corriente de uso genera se instalarán en la superficie de la pared una altura de 30cm. En el resto de puntos de alimentación se instalarán tomas hembra IEC 60309, dejando un exceso de cable de 1m en cada punto, como se especifica en el [APARTADO PLANOS].\\
+
+Las luminarias de la zona de fabricación y almacén se colocarán suspendidas del techo con cable de acero de 8mm de diámetro. Para alimentarlas se instalará una bandeja Bandeja perforada Unex 60x200 en U23X por la pared desde el Cuadro General de Mando y Protección hasta una altura de 10 metros, desde donde discurrirá a lo largo de la nave suspendida por cables de acero en cables de acero de 8mm de diámetro, siendo el punto de suspensión cada 3 metros. Las luminarias se situarán a una altura de 10 metros con respecto del nivel del suelo.
+
+\newpage
+
+
+	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 \section{Sistema propuesto}
 
-\subsection{Instalación eléctrica}
+\subsection{Características del sistema}
 
-Se realizará la instalación eléctrica de la zona de oficina, compuesta por la iluminación, las tomas de corriente de uso general y tomas de corriente SAI. En la zona de fabricación y almacén se electrificarán cada uno de las máquinas que participan en la producción, así como las luminarias y las tomas de corriente de uso general. Se procederá al cálculo de los conductores, protecciones y receptores acorde a las disposiciones mínimas exigidas por las autoridades competentes y los requisitos de cada parte de la instalación, realizándose los cálculos necesarios para justificar las protecciones, calibre de los cables que alimentan a los receptores y requisitos mínimos de flujo luminoso en cada parte de la instalación. 
+El proceso productivo objeto del presente proyecto se realizará enteramente en la zona de fabricación de la nave industrial. La nave se divide de dos áreas diferenciadas: un zona de oficinas de dos plantas con una superficie útil por planta de 175$m^2$ y la zona industrial con una superficie útil de 1260$m^2$, siendo la superficie total 1610${m^2}$. La zona industrial se divide en tres zonas: zona de carga y descarga, zona de almacenamiento de materia prima, zona de almacenamiento del producto y zona de fabricación. La zona de oficinas consta de una recepción, una zona de oficina por planta, zona de personal de fábrica y vestuarios, centro de control y una zona de aseos por planta.
+\\
 
-\subsection{Instalación de maquinaria y automatización y control del proceso de fabricación}
+Los camiones entrarían marcha atrás en la nave y los empleados procederían a descargar su contenido con la ayuda de carretillas elevadoras. Los palets con los sacos con la materia prima en polvo, así como los de los cartones para ensamblar las cajas se almacenarían en estanterías de palets situadas en la zona de almacenamiento de materia prima. 
+\\
 
-Se realizará la instalación de la maquinaria y automatización y control del proceso de fabricación acorde a las necesidades del proceso productivo. Cada máquina posee una serie de sensores y receptores que se conectarán a través de un bus de datos  a un PC industrial mediante una tarjeta de adquisición de datos. Los robots que paletizan el producto al final de la línea de producción usarán un protocolo de comunicación DeviceNet y se conectarán al PC industrial mediante una tarjeta interfaz DeviceNet. La programación del proceso productivo se realizará a través de un software específico teniendo en cuenta las especificaciones que se desean para el producto.
+En la zona de fabricación se llevará a cabo todo el proceso de transformación del polvo a pastillas envasadas en cajas. Se situarán un horno de secado, una máquina de compresión, una máquina de verificación, un tambor de revestimiento, una máquina de formación de blisters y una última de embalaje, así como cintas para transportar los distintos elementos y dos brazos robóticos para paletizar el producto final. Estos palets se almacenan en estanterías cerca de la puerta en la zona de almacenamiento de producto.\\
+
+Las máquinas de la zona de fabricación disponen de una serie de sensores y actuadores que serán controlados por PC Industrial a través de una tarjeta de adquisición de datos. Se realizará tanto la instalación física de las máquinas, su electrificación y control, como la instalación eléctrica de la zona de oficinas y zona industrial. Todos los detalles y características de los elementos y procesos se encuentran detallados en las siguientes secciones del presente documento.
 
 \subsection{Proceso de fabricación}
 
@@ -565,18 +569,17 @@ El proceso de fabricación de los comprimidos seguirá la siguiente secuencia: \
 Se proporcionará alimentación a todas las máquinas de forma manual y secuencial en el cuadro de fábrica accionando los interruptores automáticos correspondientes. Una vez comprobado que todas las máquinas están alimentadas se procederá a iniciar el sistema de control por PC industrial, que realizará una comprobación previa de todos los sistemas. El proceso comenzará precalentando el horno a la temperatura adecuada, una señal de aviso visual y acústica avisará al operario de que el horno está listo para recibir la materia prima y procederá a llenar el depósito con la cantidad adecuada. Una vez lleno, el horno liberará el polvo uniformemente sobre una cinta transportadora que lo lo transporta por el horno a una velocidad de entre 30 y 200mm por minuto, en función del tamaño de las pastillas a fabricar. El horno lleva una mezcla de gases $N_2$ y $H_2$ a una temperatura de unos 1050ºC para eliminar cualquier tipo de humedad. Se pueden regular la temperatura del horno, la velocidad de la cinta interna y la cantidad de polvo que se dispersa, dependiendo de las especificaciones del producto. En caso de que el proceso requiera de algún tipo de modificación manual, el operario podrá pasar de modo automático a modo manual en el panel de la máquina.
 \\
 
-A la salida del horno, el polvo es introducido en una máquina de compresión, donde es convertido en pastillas y se le imprime el nombre de la pastilla si fuera de aplicación. El tamaño y forma de las pastillas se deberá especificar e insertar el molde correspondiente, siendo de entre 3 y 12mm de diámetro las mismas. \\  
+A la salida del horno, el polvo pasa a una máquina de compresión, donde es comprimido en forma de pastillas con la serigrafía correspondiente en relieve. El tamaño y forma de las pastillas se deberá especificar e insertar el molde correspondiente manualmente antes de comenzar todo el proceso. \\  
 
-Acto seguido pasa por una máquina de comprobación. Esta primero limpia las pastillas con un flujo de aire a presión que elimina el polvo suelto que quede de la operación anterior. Tras ser colocadas en fila la máquina comprueba una a una todas las pastillas para verificar que ninguna se rompe por debajo de un umbral mínimo que garantice la integridad de la misma durante el transporte. También verificia periódicamente que ninguna pastilla escogida aleatoriamente se rompa por encima de un umbral máximo, lo que la podría hacer peligrosa para el consumo. Las pastillas desechadas se trituran y depositan en un recipiente para que el operario lo reintroduzca en el horno en la siguiente iteración y así minimizar el desperdicio de materia prima. \\
+Acto seguido pasa por la máquina de comprobación. Esta primero limpia las pastillas con un flujo de aire a presión que elimina el polvo disperso que quede de la operación anterior. Tras ser colocadas en fila la máquina comprueba una a una todas las pastillas para verificar que ninguna se rompe por debajo de un umbral mínimo que garantice la integridad de la misma durante su tiempo de vida útil y uso adecuado. También verificará periódicamente que ninguna pastilla escogida aleatoriamente se rompa por encima de un umbral máximo, lo que la podría hacer peligrosa para el consumo. Las pastillas desechadas se trituran y depositan en un recipiente para que el operario lo recircule en el horno en la siguiente iteración y así minimizar el desperdicio de materia prima. \\
 
-El resto de pastillas continúa hasta la máquina de revestimiento. Un depósito regulado acepta tabletas hasta llegar a un peso específico. Una vez alcanzada la cantidad máxima aceptable se vierte a un tambor giratorio para comenzar el proceso. Ahi una pistola de pintura regulada a una presión de entre 0.29MPa y 0.39MPa rocía en pulsos cortos y rápidos a las pastillas. La mezcla utilizada es de agua con colorantes y sabor artificial, para dotar a las mismas de un color identificativo, sabor agradable y conservarlas más tiempo, al endurecer así la capa exterior y evitar que se deshagan. 
-Las pastillas están rodando y siendo rociadas durante el tiempo necesario para recubrirlas completamente, variando éste en función del tamaño de las tabletas y de la densidad del agente protector.\\
+El resto de pastillas continuará hasta la máquina de revestimiento. Un depósito regulado acepta tabletas hasta llegar a un volumen específico. Una vez alcanzada la cantidad máxima aceptable se vierte a un tambor giratorio para comenzar el proceso. Ahi una pistola de pintura regulada a una presión de entre 0.29MPa y 0.39MPa rocía en pulsos cortos y rápidos a las pastillas. La mezcla utilizada es de agua con colorantes y sabor artificial, para dotar a las mismas de un color identificativo, sabor agradable y protección, al endurecer de esta forma la capa exterior. Las pastillas están rodando y siendo rociadas durante el tiempo necesario para recubrirlas completamente, variando éste en función del tamaño de las tabletas y de la densidad del agente protector.\\
 
-El proceso continua cuando las tabletas llegan a la máquina de formación de blisters.
-En esta máquina se dejan caer pastillas por una cinta hasta llenar un depósito, donde mediante un sensor indica el llenado. La selladora coloca las pastillas en posición segun la matriz utilizada. Paralelamente tira del rollo de plástico en lámina y lo coloca debajo de un cabezal móvil caliente. Al bajar, ésta deforma la lámina con unos terminales con forma de pastilla y crea los habitáculos donde inmediatamente inserta las tabletas. Acto seguido se le coloca una lámina de alumnio con el logo impreso y es sellado por calor al bajar el cabezal móvil en la siguiente iteración. Finalmente, la máquina hace avanzar todo de nuevo y con la última bajada de cabezal corta el conjunto de plástico y aluminio relleno y sellado, y este avanza a la salida, donde se  envía a la máquina de empaquetado.\\
+El proceso continua con las tabletas llegando a la máquina de formación de blisters. En esta máquina se dejan caer pastillas por una cinta transportadora hasta llenar un depósito. La selladora colocará las pastillas en posición según la matriz utilizada. Paralelamente tira del rollo de plástico en lámina y lo coloca debajo de un cabezal móvil caliente. Al bajar, ésta deforma la lámina con unos terminales con forma de pastilla y crea los habitáculos donde inmediatamente inserta las tabletas. Acto seguido se le coloca una lámina de aluminio con el distintivo impreso en relieve y es sellado por calor al bajar el cabezal móvil en la siguiente iteración. Finalmente, la máquina hace avanzar todo de nuevo y con la última bajada de cabezal corta el conjunto de plástico y aluminio relleno y sellado, y este avanza a la salida, donde se  envía a la máquina de empaquetado.\\
 
-Finalmente se transportan los blisters sellados por otra cinta transportadora a la máquina de empaquetado. Esta coge las cartulinas de las cajas que previamente ha cargado un operario, y las dobla para darles su forma final. Inmediatamente después coge una hoja de folleto y lo pliega hasta darle su forma característica. Finalmente introduce el folleto explicativo y las unidades de blisters que correspondan en la caja y la cierra. Las cajas con el produto final se dejan caer por una rampa hasta una mesa donde un brazo robótico ABB IRB 260 equipado con una cámara coge las cajas individuales y las coloca en cajas de lotes en un palé para ser recogido por un operario y almacenado en una estantería. Un segundo brazo robótico ABB 4400 coje un palé de una pila de palés vacíos y lo coloca en la posición del anterior para el siguiente ciclo.
+Finalmente se transportan los blisters sellados por otra cinta transportadora a la máquina de empaquetado. Esta coge las cartulinas de las cajas que previamente ha cargado un operario, y las dobla para darles su forma final. Inmediatamente después coge una hoja de prospecto y lo pliega hasta darle su forma característica. Finalmente introduce el prospecto y las unidades de blisters que correspondan en la caja y la cierra. Las cajas con el producto final se dejan caer por una rampa hasta una mesa donde un brazo robótico ABB IRB 260 equipado con una cámara coge las cajas individuales y las coloca en cajas de lotes en un palet para ser recogido por un operario y almacenado en una estantería. Un segundo brazo robótico ABB 4400 cojerá un palet de una pila de palets vacíos y lo colocará en la posición del anterior para el siguiente ciclo.
 \\
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Flujograma del proceso de fabrcación}
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Planos/Flujograma.png}
@@ -651,8 +654,8 @@ Fdo. David Antón Sánchez
 \newpage
 
 \subsubsection{Controlador ABB IRC5}
-\hspace*{-2cm}
-\includegraphics[page=2]{Datasheets/IRC5datasheetPR10258ENR13.pdf}
+\hspace*{-7cm}
+\includegraphics[page=2]{Datasheets/IRC5 datasheet PR10258 EN_R13.pdf}
 \newpage
 
 \subsubsection{Tarjeta interfaz DeviceNet}
