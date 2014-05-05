@@ -57,7 +57,7 @@ int main( int argc, char** argv )
   printf("-- Max dist : %f \n", max_dist );
   printf("-- Min dist : %f \n", min_dist );
 
-  //-- Draw only "good" matches (i.e. whose distance is less than 3*min_dist )
+
   std::vector< DMatch > good_matches;
 
   for( int i = 0; i < descriptors_object.rows; i++ )
@@ -93,7 +93,7 @@ int main( int argc, char** argv )
 
   perspectiveTransform( obj_corners, scene_corners, H);
 
-  //-- Draw lines between the corners (the mapped object in the scene - image_2 )
+
   line( img_matches, scene_corners[0] + Point2f( img_object.cols, 0), 
 scene_corners[1] + Point2f( img_object.cols, 0), Scalar(0, 255, 0), 4 );
   line( img_matches, scene_corners[1] + Point2f( img_object.cols, 0), 

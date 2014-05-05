@@ -57,11 +57,11 @@ En caso de producirse alguna diferencia de criterio entre una normativa y otra d
 
 \subsection{Instalación de maquinaria y automatización y control del proceso de fabricación}
 
-Se realizará la instalación de la maquinaria y automatización y control del proceso de fabricación acorde a las necesidades del proceso productivo. Cada máquina posee una serie de sensores y receptores que se conectarán a través de un bus de datos  a un PC industrial mediante una tarjeta de adquisición de datos. Los robots que paletizan el producto al final de la línea de producción usarán un protocolo de comunicación DeviceNet y se conectarán al PC industrial mediante una tarjeta interfaz de la misma tecnología. La programación del proceso productivo se realizará a través de un software específico teniendo en cuenta las especificaciones que se desean para el producto.
+Se realizará la instalación de la maquinaria y automatización y control del proceso de fabricación acorde a las necesidades del proceso productivo. Cada máquina posee una serie de sensores y receptores que se conectarán a través de un bus de datos  a un PC industrial mediante una tarjeta de adquisición de datos. Los robots que paletizarán el producto al final de la línea de producción usarán un protocolo de comunicación DeviceNet y se conectarán al PC industrial mediante una tarjeta interfaz de la misma tecnología. La programación del proceso productivo se realizará a través de un software específico atendiendo a las especificaciones deseadas para el producto.
 
 \subsection{Instalación eléctrica}
 
-Se realizará la instalación eléctrica de la zona de oficina, compuesta por la iluminación, tomas de corriente de uso general y tomas de corriente SAI. En la zona de fabricación y almacén se electrificarán cada uno de las máquinas que participan en el la producción, así como las luminarias y las tomas de corriente de uso general. Se procederá al cálculo de los conductores, protecciones y receptores acorde a las disposiciones mínimas exigidas por las autoridades competentes y los requisitos de cada parte de la instalación, realizándose los cálculos necesarios para justificar las protecciones, calibre de los cables que alimentan a los receptores y requisitos mínimos de flujo luminoso en las zonas de trabajo.
+Se realizará la instalación eléctrica de la zona de oficina, compuesta por la iluminación, tomas de corriente de uso general y tomas de corriente SAI. En la zona de fabricación y almacén se electrificarán cada uno de las máquinas que participan en el la producción, así como las luminarias y las tomas de corriente de uso general. Se procederá al cálculo de los conductores, protecciones y receptores acorde a las disposiciones mínimas exigidas por las autoridades competentes y los requisitos de cada parte de la instalación, realizándose los cálculos necesarios para justificar las protecciones, calibre de los conductores que alimentan a los receptores y requisitos mínimos de flujo luminoso en las zonas de trabajo.
 
 \pagebreak
 
@@ -624,69 +624,123 @@ Fdo. David Antón Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage \section{Anexos}
 
-   
-\subsection{Anexo de cálculos:}
 
-\subsubsection{Cálculos de la Instalación eléctrica}
-\paragraph{Cálculo de conductores y protecciones}
-\paragraph{Estudio luminotécnico}
+   
+
+
+
+
+\subsection{Anexo de cálculos justificativos:}
+
+\subsubsection{Cálculos de la Instalación eléctrica: conductores y protecciones}
+
+
+\includepdf[pages=-, scale=0.9]{Memoria/calc1.pdf}
+
+\pagebreak
+
+\includepdf[pages=-, scale=0.9]{Memoria/calc2.pdf}
+
+\pagebreak
+
+\includepdf[pages=-, scale=0.9]{Memoria/calc3.pdf}
+
+\pagebreak
+
+\subsubsection{Estudio luminotécnico}
+
+\includepdf[pages=-, scale=0.9]{Memoria/lumi1.pdf}
+
+\includepdf[pages=-, scale=0.9]{Memoria/lumi2.pdf}
+
+
+
+
+
+
 
 \newpage
 \subsection{Anexo de código}
-\textbf{Programación en RAPID del sistema de paletizado con robots ABB}
-\textbf{Código detección de cajas en C++ utilizando OpenCV con algoritmo SURF}
 
+\pagebreak
 
+\subsubsection{Programación en RAPID del sistema de paletizado con robots ABB}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=1\textwidth]{Datasheets/robotstudio.png}
+\caption{Proyecto RobotStudio}
+\label{fig:digraph}
+\end{figure}
+
+\lstinputlisting{Memoria/Robotstudio_code.cpp}
+
+\pagebreak
+
+\subsubsection{Código detección de cajas en C++ utilizando OpenCV con algoritmo SURF}
 \lstinputlisting{Memoria/codigo.cpp}
 \newpage
+
+
+
+
+
+
+
+
+
+
 \subsection{Anexo de catálogos}
-\subsubsection{Máquina de secado de polvo}
+
+\pagebreak
+
+\subsubsection{Máquina de secado de polvo Hengli HSA1508-0711NH }
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/1Horno.png} 
 \newpage
 
-\subsubsection{Máquina de compresión en tabletas}
+\subsubsection{Maquina de compresión en tabletas Unimach YUJ-17BZ}
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/2MaquinaPrensado.png} 
 \newpage
 
-\subsubsection{Máquina de verificación de dureza de tabletas}
+\subsubsection{Maquina verificación de dureza de tabletas Unimach YJX220B}
 \includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/3Foto.png} 
 \\
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/3MaquinaVerificacion.png} 
 \newpage
 
-\subsubsection{Máquina de revestimento de tabletas}
+\subsubsection{Maquina de revestimiento de tabletas Unimach BGB80}
 \includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/4Foto.png} 
 \\
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/4MaquinaRevestimiento.png} 
 \newpage
 
-\subsubsection{Máquina de sellado de blisters}
+\subsubsection{Maquina de sellado de blisters Unimach DPK-260H2}
 \includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/5Foto.png} 
 \\
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/5MaquinaBlisters.png} 
 \newpage
 
-\subsubsection{Máquina de empaquetado}
+\subsubsection{Maquina de empaquetado Huan Yuan HTZ200}
 \includegraphics[width=15cm,height=20cm,keepaspectratio]{Datasheets/7MaquinaEmpaquetado.png} 
 \newpage
-\subsubsection{Cintas transportadora}
+\subsubsection{Cinta transportadora TEMPO}
 \includegraphics[height=22cm,keepaspectratio]{Datasheets/11Cinta.png} 
 \newpage
-\subsubsection{Robot paletizado}
+\subsubsection{Robot ABB IRB 260}
 \hspace*{-2cm}
 \includegraphics[page=2]{Datasheets/IRB-260.pdf}
 \newpage
-\subsubsection{Robot de posicionamiento de palets}
+\subsubsection{Robot ABB IRB 4400}
 \hspace*{-2cm}
 \includegraphics[page=2]{Datasheets/IRB-4400.pdf}
 \newpage
 
 \subsubsection{Controlador ABB IRC5}
-\hspace*{-7cm}
-\includegraphics[page=2]{Datasheets/IRC5datasheetPR10258ENR13.pdf}
+\hspace*{-2cm}
+\includegraphics[page=2]{Datasheets/IRC5.pdf}
 \newpage
 
-\subsubsection{Tarjeta interfaz DeviceNet}
+\subsubsection{Tarjeta DeviceNet PCI Softing CAN-AC1-PCI/DN}
 \hspace*{-2cm}
 \includegraphics[page=2]{Datasheets/CAN012E2_201204_CAN-AC1_PCI_DN.pdf}
 \newpage
@@ -695,12 +749,11 @@ Fdo. David Antón Sánchez
 \includegraphics[width=1\textwidth]{Datasheets/DeviceBus.png}
 \newpage
 
-
-\subsubsection{Tarjeta de aquisición de datos}
+\subsubsection{Tarjeta de adquisición de datos Eagle NET-26C}
 \hspace*{0cm}
 \includegraphics[scale=0.63]{Datasheets/10Tarjeta.png}
 \newpage
-\subsubsection{PC industrial Siemens}
+\subsubsection{PC industrial Siemens SIMATIC IPC547}
 \hspace*{0cm}
 \includegraphics[width=5cm,height=4cm,keepaspectratio]{Datasheets/12Foto.png} 
 
